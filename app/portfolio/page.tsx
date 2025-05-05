@@ -78,6 +78,15 @@ export default function Portfolio() {
       details:
         "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
     },
+    {
+      id: 6,
+      title: "Stock Analysis",
+      description: "Multi-dimensional analysis of revenue across countries and demographics",
+      image: "/images/customer-dashboard.png",
+      category: "POWER BI",
+      details:
+        "This dashboard provides a comprehensive view of revenue metrics across 10 countries, totaling £21,764,629. It analyzes revenue by country, age band, gender, weekday trends, customer value segments, and income ranges.",
+    }
   ]
 
   const filteredProjects = filter === "ALL" ? projects : projects.filter((project) => project.category === filter)
