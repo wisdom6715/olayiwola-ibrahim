@@ -69,6 +69,15 @@ export default function Portfolio() {
       details:
         "This dashboard tracks call center performance with metrics on call volume, resolution rates, and agent efficiency. It shows 5,000 total calls with 4,054 answered and 3,646 resolved, providing insights into call trends and agent performance.",
     },
+    {
+      id: 5,
+      title: "Stockholm Cholera Outbreak Analysis",
+      description: "Data analysis and visualization of the 1853 Stockholm Cholera Outbreak",
+      image: "/images/stockholm-cholera.png",
+      category: "TABLEAU",
+      details:
+        "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
+    },
   ]
 
   const filteredProjects = filter === "ALL" ? projects : projects.filter((project) => project.category === filter)

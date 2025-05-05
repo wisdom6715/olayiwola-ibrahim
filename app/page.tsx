@@ -113,17 +113,18 @@ export default function Home() {
           </motion.nav>
 
           <motion.div className="flex space-x-4" variants={itemVariants}>
+            {/* <Link href="https://www.linkedin.com/in/ola  variants={itemVariants}"> </Link> */}
             <Link
-              href="https://www.linkedin.com/in/ola  variants={itemVariants}>
-            <Link
-              href="
-              https:target="_blank" //www.linkedin.com/in/oladosu-ibrahim/"
+              href="https://www.linkedin.com/in/oladosu-ibrahim/"
+              target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-colors"
             >
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </Link>
+
+
             <Link
               href="https://github.com/oladosuibrahim"
               target="_blank"
