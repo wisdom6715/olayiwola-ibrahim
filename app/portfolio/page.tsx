@@ -86,6 +86,15 @@ export default function Portfolio() {
       category: "POWER BI",
       details:
         "This dashboard provides a comprehensive view of revenue metrics across 10 countries, totaling £21,764,629. It analyzes revenue by country, age band, gender, weekday trends, customer value segments, and income ranges.",
+    },
+    {
+      id: 7,
+      title: "Stockholm Cholera Outbreak Analysis",
+      description: "Data analysis and visualization of the 1853 Stockholm Cholera Outbreak",
+      image: "/images/stockholm-cholera.png",
+      category: "TABLEAU",
+      details:
+        "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
     }
   ]
 
