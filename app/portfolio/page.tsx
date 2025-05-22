@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import { useState } from "react"
 import Navbar from "@/components/navbar"
+import Link from "next/link"
 
 export default function Portfolio() {
   const [filter, setFilter] = useState("ALL")
@@ -287,6 +288,7 @@ export default function Portfolio() {
                     <div className="border-t border-gray-700 pt-4">
                       <h4 className="text-lg font-semibold mb-2">Project Details</h4>
                       <p className="text-gray-300">{project.details}</p>
+                      <Link href={project.link}>Check it out</Link>
                     </div>
                     <div className="mt-6 flex justify-end">
                       <button
