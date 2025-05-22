@@ -288,7 +288,7 @@ export default function Portfolio() {
                     <div className="border-t border-gray-700 pt-4">
                       <h4 className="text-lg font-semibold mb-2">Project Details</h4>
                       <p className="text-gray-300">{project.details}</p>
-                      <Link href={project.link}>Check it out</Link>
+                      <Link href={project.link} className="text-green-600 pt-3">Check it out</Link>
                     </div>
                     <div className="mt-6 flex justify-end">
                       <button
