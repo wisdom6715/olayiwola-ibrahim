@@ -84,6 +84,14 @@ export default function Certificates() {
       date: "September 5, 2024",
       credentialId: "SQA001560968710",
     },
+    {
+      id: "github",
+      title: "Github Foundation",
+      image: "/images/cert6.png",
+      issuer: "Github",
+      date: "13th May, 2025",
+      credentialId: "SQA001560968713",
+    },
   ]
 
   return (
