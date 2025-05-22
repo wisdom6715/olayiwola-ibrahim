@@ -35,67 +35,105 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      title: "Stockholm Cholera Outbreak Analysis",
-      description: "Data analysis and visualization of the 1853 Stockholm Cholera Outbreak",
-      image: "/images/stockholm-cholera.png",
+      title: "US Super Store Sales Analysis",
+      description: "The US Super Store Sales Analysis project is a retail analytics case study that examines sales, profitability, customer behavior, product trends, and regional performance using transactional data from a fictional U.S. superstore.",
+      image: "/images/project1.png",
       category: "TABLEAU",
       details:
-        "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
+        "The US Super Store Sales Analysis project is a comprehensive retail analytics case study focused on uncovering insights from transactional data of a fictional superstore operating across the United States. It explores key business areas such as sales performance, profitability, customer behavior, product trends, and regional operations.",
+      link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7Be4fc1605-5ff1-4b0e-b527-eecb52cf55c0%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_ZT1TS0lEcW8&slrid=9ab6a0a1-b052-0000-6465-d0d5eb599653&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_cnRpbWU9S0p3NzFGMlozVWc&CID=9e5a26a5-ac12-4ca7-b00c-f3cc6c11e035&_SRM=0:G:61"
     },
     {
       id: 2,
-      title: "Customer Churn Analysis",
-      description: "Comprehensive analysis of customer churn factors and patterns",
-      image: "/images/customer-churn.png",
-      category: "POWER BI",
+      title: "Airline Passenger Satisfaction Analysis",
+      description: "A data-driven analysis of key factors influencing airline passenger satisfaction using real-world survey data.",
+      image: "/images/project2.png",
+      category: "TABLEAU",
       details:
-        "This Power BI dashboard analyzes customer churn data for 7,043 customers with a 26.54% churn rate. It breaks down churn by gender, customer tenure, contract type, and dependents to identify key factors affecting customer retention.",
+        "The Airline Passenger Satisfaction Analysis project is a comprehensive study focused on understanding the key factors that influence passenger satisfaction in the airline industry. Using real-world survey data, this project analyzes various aspects of the passenger experience, including demographics, travel behavior, service quality, flight performance, and delays.",
+      link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7B4327ad78-7ce3-432b-ace7-68185beec25b%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_ZT1VaHNNSEg&slrid=63b8a0a1-2067-0000-5fa9-c8d740d9f94f&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_cnRpbWU9MlZaek1tS1ozVWc&CID=e3034c5a-056f-43fb-b735-586c17103c63&_SRM=0:G:37"
     },
     {
       id: 3,
-      title: "Revenue Analysis Dashboard",
-      description: "Multi-dimensional analysis of revenue across countries and demographics",
-      image: "/images/customer-dashboard.png",
-      category: "POWER BI",
+      title: "Amazon Sales Performance Analysis",
+      description: "A data-driven analysis of Amazon sales trends, product performance, customer preferences, and regional distribution.",
+      image: "/images/project3.png",
+      category: "TABLEAU",
       details:
-        "This dashboard provides a comprehensive view of revenue metrics across 10 countries, totaling £21,764,629. It analyzes revenue by country, age band, gender, weekday trends, customer value segments, and income ranges.",
+        "The Amazon Sales Performance Analysis project is a data-driven exploration of sales activities on one of the world’s largest e-commerce platforms. This analysis focuses on understanding sales trends, product performance, customer preferences, delivery efficiency, and regional sales distribution",
+      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk"
     },
     {
       id: 4,
-      title: "Call Center Performance Dashboard",
-      description: "Analysis of call center metrics and agent performance",
-      image: "/images/call-center.png",
-      category: "POWER BI",
+      title: "Bank Churn Analysis",
+      description: "An analysis of customer data to identify key factors influencing bank customer churn and predict attrition patterns.",
+      image: "/images/project4.png",
+      category: "TABLEAU",
       details:
-        "This dashboard tracks call center performance with metrics on call volume, resolution rates, and agent efficiency. It shows 5,000 total calls with 4,054 answered and 3,646 resolved, providing insights into call trends and agent performance.",
+        "The Bank Churn Analysis project focuses on identifying key factors that contribute to customer attrition in a banking environment. Using a dataset containing customer demographics, account information, and banking activity, this project aims to uncover patterns and behaviors that indicate whether a customer is likely to leave the bank (churn).",
+      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk"
     },
     {
       id: 5,
-      title: "Stockholm Cholera Outbreak Analysis",
-      description: "Data analysis and visualization of the 1853 Stockholm Cholera Outbreak",
-      image: "/images/stockholm-cholera.png",
-      category: "TABLEAU",
+      title: "MTN Customer Churn Analysis",
+      description: "An Excel-based BI dashboard analyzing customer churn, retention trends, and revenue patterns in the MTN Pulse segment.",
+      image: "/images/project5.png",
+      category: "EXCEL",
       details:
-        "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
+        "The MTN Pulse Churn Analysis & Retention Intelligence Dashboard is a business intelligence solution designed to uncover key factors driving customer churn and revenue fluctuations within the MTN Pulse segment. Built using Microsoft Excel, this project provides a centralized, interactive environment to monitor retention trends, subscription behaviors, and revenue performance metrics",
+      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/EW4Oclat5qVEuOtklIMcmucBCSWwuMZg8F-78OPAHpO87Q?resid=476753BB47A7D227!s56720e6ee6ad44a5b8eb6494831c9ae7&ithint=file%2Cxlsx&e=vUu2bd&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VXNE9jbGF0NXFWRXVPdGtsSU1jbXVjQkNTV3d1TVpnOEYtNzhPUEFIcE84N1E_ZT12VXUyYmQ"
     },
     {
       id: 6,
-      title: "Stock Analysis",
-      description: "Multi-dimensional analysis of revenue across countries and demographics",
-      image: "/images/customer-dashboard.png",
-      category: "POWER BI",
+      title: "Global Electronics Retailer Analysis ",
+      description: "Global Electronics, founded in 2005, is a leading consumer electronics brand operating in 8 countries, known for its innovative tech products and excellent customer service.",
+      image: "/images/project6.png",
+      category: "TABLEAU",
       details:
-        "This dashboard provides a comprehensive view of revenue metrics across 10 countries, totaling £21,764,629. It analyzes revenue by country, age band, gender, weekday trends, customer value segments, and income ranges.",
+        "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
+      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FGlobal%20Electronics%20Retailer%20Analysis%201%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
     },
     {
       id: 7,
-      title: "Stockholm Cholera Outbreak Analysis",
-      description: "Data analysis and visualization of the 1853 Stockholm Cholera Outbreak",
-      image: "/images/stockholm-cholera.png",
+      title: "UK Train Rides Analysis",
+      description: "The UK Train Ride project analyzes real-world railway data to uncover insights into passenger behavior, journey trends, revenue, and route performance.",
+      image: "/images/project7.png",
       category: "TABLEAU",
       details:
-        "This project analyzes the 1853 Stockholm Cholera Outbreak data, visualizing death trends by month, profession, gender, and quarterly toll. The dashboard provides insights into the 248 total deaths, with an average age of 34 among victims.",
-    }
+        "The UK Train Ride project is a comprehensive data analysis and visualization initiative that explores railway travel data in the United Kingdom. Using real-world train ride data, this project uncovers insights into passenger behavior, journey trends, revenue generation, and route performance.",
+      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FUK%20Train%20Rides%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
+    },
+    {
+      id: 8,
+      title: "Adult Census Income in USA",
+      description: "The Adult Census Income Dashboard predicts income levels based on U.S. demographic and occupational data, revealing key socioeconomic trends.",
+      image: "/images/project8.png",
+      category: "TABLEAU",
+      details:
+        "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
+      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FIncome%20Dataset%20in%20USA%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
+    },
+    {
+      id: 9,
+      title: "CRM Sales Opportunities",
+      description: "The CRM Sales Opportunities Dashboard is a BI tool that visualizes opportunity trends, pipeline health, and sales performance using core CRM data.",
+      image: "/images/project9.png",
+      category: "TABLEAU",
+      details:
+        "The CRM Sales Opportunities Dashboard is an end-to-end business intelligence solution built to empower sales leaders with visibility into opportunity trends, pipeline health, product performance, and team effectiveness. Leveraging data from core CRM modules such as Accounts, Sales Team, Products, and the Sales Pipeline, this dashboard provides a centralized, interactive platform for tracking, forecasting, and optimizing sales opportunities.",
+      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2F360%20Projects%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
+    },
+    {
+      id: 10,
+      title: "Motor Vehicle Theft Analysis",
+      description: "This project analyzes motor vehicle theft data in New Zealand to identify patterns, high-risk areas, and trends to support law enforcement, policymakers, and vehicle owners.",
+      image: "/images/project10.png",
+      category: "SQL",
+      details:
+        "Motor vehicle theft is a growing concern in New Zealand, affecting both urban and rural areas. With thousands of vehicles stolen annually, it is crucial to analyze patterns, identify high-risk locations, and uncover trends that can help curb this issue. This project aims to leverage data analysis techniques to derive insights that can benefit multiple stakeholders, including law enforcement agencies, policymakers, vehicle owners, and insurance companies.",
+      link: "https://github.com/Sudaisib/SQL-Portfolio-Projects/blob/main/Motor%20Vehicle%20Theft%20Analysis/README.md"
+    },
+    
   ]
 
   const filteredProjects = filter === "ALL" ? projects : projects.filter((project) => project.category === filter)
