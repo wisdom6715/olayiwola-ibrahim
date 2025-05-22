@@ -39,7 +39,7 @@ export default function Portfolio() {
       title: "US Super Store Sales Analysis",
       description: "The US Super Store Sales Analysis project is a retail analytics case study that examines sales, profitability, customer behavior, product trends, and regional performance using transactional data from a fictional U.S. superstore.",
       image: "/images/project1.png",
-      category: "TABLEAU",
+      category: "EXCEL",
       details:
         "The US Super Store Sales Analysis project is a comprehensive retail analytics case study focused on uncovering insights from transactional data of a fictional superstore operating across the United States. It explores key business areas such as sales performance, profitability, customer behavior, product trends, and regional operations.",
       link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7Be4fc1605-5ff1-4b0e-b527-eecb52cf55c0%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_ZT1TS0lEcW8&slrid=9ab6a0a1-b052-0000-6465-d0d5eb599653&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_cnRpbWU9S0p3NzFGMlozVWc&CID=9e5a26a5-ac12-4ca7-b00c-f3cc6c11e035&_SRM=0:G:61"
@@ -49,7 +49,7 @@ export default function Portfolio() {
       title: "Airline Passenger Satisfaction Analysis",
       description: "A data-driven analysis of key factors influencing airline passenger satisfaction using real-world survey data.",
       image: "/images/project2.png",
-      category: "TABLEAU",
+      category: "EXCEL",
       details:
         "The Airline Passenger Satisfaction Analysis project is a comprehensive study focused on understanding the key factors that influence passenger satisfaction in the airline industry. Using real-world survey data, this project analyzes various aspects of the passenger experience, including demographics, travel behavior, service quality, flight performance, and delays.",
       link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7B4327ad78-7ce3-432b-ace7-68185beec25b%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_ZT1VaHNNSEg&slrid=63b8a0a1-2067-0000-5fa9-c8d740d9f94f&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_cnRpbWU9MlZaek1tS1ozVWc&CID=e3034c5a-056f-43fb-b735-586c17103c63&_SRM=0:G:37"
@@ -59,7 +59,7 @@ export default function Portfolio() {
       title: "Amazon Sales Performance Analysis",
       description: "A data-driven analysis of Amazon sales trends, product performance, customer preferences, and regional distribution.",
       image: "/images/project3.png",
-      category: "TABLEAU",
+      category: "EXCEL",
       details:
         "The Amazon Sales Performance Analysis project is a data-driven exploration of sales activities on one of the world’s largest e-commerce platforms. This analysis focuses on understanding sales trends, product performance, customer preferences, delivery efficiency, and regional sales distribution",
       link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk"
@@ -69,7 +69,7 @@ export default function Portfolio() {
       title: "Bank Churn Analysis",
       description: "An analysis of customer data to identify key factors influencing bank customer churn and predict attrition patterns.",
       image: "/images/project4.png",
-      category: "TABLEAU",
+      category: "EXCEL",
       details:
         "The Bank Churn Analysis project focuses on identifying key factors that contribute to customer attrition in a banking environment. Using a dataset containing customer demographics, account information, and banking activity, this project aims to uncover patterns and behaviors that indicate whether a customer is likely to leave the bank (churn).",
       link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk"
@@ -89,7 +89,7 @@ export default function Portfolio() {
       title: "Global Electronics Retailer Analysis ",
       description: "Global Electronics, founded in 2005, is a leading consumer electronics brand operating in 8 countries, known for its innovative tech products and excellent customer service.",
       image: "/images/project6.png",
-      category: "TABLEAU",
+      category: "POWERBI",
       details:
         "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FGlobal%20Electronics%20Retailer%20Analysis%201%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
@@ -99,7 +99,7 @@ export default function Portfolio() {
       title: "UK Train Rides Analysis",
       description: "The UK Train Ride project analyzes real-world railway data to uncover insights into passenger behavior, journey trends, revenue, and route performance.",
       image: "/images/project7.png",
-      category: "TABLEAU",
+      category: "POWERBI",
       details:
         "The UK Train Ride project is a comprehensive data analysis and visualization initiative that explores railway travel data in the United Kingdom. Using real-world train ride data, this project uncovers insights into passenger behavior, journey trends, revenue generation, and route performance.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FUK%20Train%20Rides%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
@@ -109,7 +109,7 @@ export default function Portfolio() {
       title: "Adult Census Income in USA",
       description: "The Adult Census Income Dashboard predicts income levels based on U.S. demographic and occupational data, revealing key socioeconomic trends.",
       image: "/images/project8.png",
-      category: "TABLEAU",
+      category: "POWERBI",
       details:
         "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FIncome%20Dataset%20in%20USA%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
@@ -119,7 +119,7 @@ export default function Portfolio() {
       title: "CRM Sales Opportunities",
       description: "The CRM Sales Opportunities Dashboard is a BI tool that visualizes opportunity trends, pipeline health, and sales performance using core CRM data.",
       image: "/images/project9.png",
-      category: "TABLEAU",
+      category: "POWERBI",
       details:
         "The CRM Sales Opportunities Dashboard is an end-to-end business intelligence solution built to empower sales leaders with visibility into opportunity trends, pipeline health, product performance, and team effectiveness. Leveraging data from core CRM modules such as Accounts, Sales Team, Products, and the Sales Pipeline, this dashboard provides a centralized, interactive platform for tracking, forecasting, and optimizing sales opportunities.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2F360%20Projects%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
@@ -285,6 +285,7 @@ export default function Portfolio() {
                     <motion.p className="text-gray-300 mb-6" layoutId={`project-description-${project.id}`}>
                       {project.description}
                     </motion.p>
+                    
                     <div className="border-t border-gray-700 pt-4">
                       <h4 className="text-lg font-semibold mb-2">Project Details</h4>
                       <p className="text-gray-300">{project.details}</p>
