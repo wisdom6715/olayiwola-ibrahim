@@ -9,6 +9,7 @@ import Link from "next/link"
 export default function Portfolio() {
   const [filter, setFilter] = useState("ALL")
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
+  const [previewImage, setPreviewImage] = useState<string | null>(null)
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -61,7 +62,7 @@ export default function Portfolio() {
       image: "/images/project3.png",
       category: "EXCEL",
       details:
-        "The Amazon Sales Performance Analysis project is a data-driven exploration of sales activities on one of the world’s largest e-commerce platforms. This analysis focuses on understanding sales trends, product performance, customer preferences, delivery efficiency, and regional sales distribution",
+        "The Amazon Sales Performance Analysis project is a data-driven exploration of sales activities on one of the world's largest e-commerce platforms. This analysis focuses on understanding sales trends, product performance, customer preferences, delivery efficiency, and regional sales distribution",
       link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk"
     },
     {
@@ -81,7 +82,7 @@ export default function Portfolio() {
       image: "/images/project5.png",
       category: "EXCEL",
       details:
-        "The MTN Pulse Churn Analysis & Retention Intelligence Dashboard is a business intelligence solution designed to uncover key factors driving customer churn and revenue fluctuations within the MTN Pulse segment. Built using Microsoft Excel, this project provides a centralized, interactive environment to monitor retention trends, subscription behaviors, and revenue performance metrics",
+        "The MTN Pulse Churn Analysis & Retention Intelligence Dashboard is a business intelligence solution designed to uncover key factors driving customer churn and revenue fluctuations within the MTN Pulse segment. Built using Microsoft Excel, this project provides a centralized, interactive environment to monitor retention trends, subscription behaviors, and revenue performance metrics",
       link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/EW4Oclat5qVEuOtklIMcmucBCSWwuMZg8F-78OPAHpO87Q?resid=476753BB47A7D227!s56720e6ee6ad44a5b8eb6494831c9ae7&ithint=file%2Cxlsx&e=vUu2bd&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VXNE9jbGF0NXFWRXVPdGtsSU1jbXVjQkNTV3d1TVpnOEYtNzhPUEFIcE84N1E_ZT12VXUyYmQ"
     },
     {
@@ -91,7 +92,7 @@ export default function Portfolio() {
       image: "/images/project6.png",
       category: "POWERBI",
       details:
-        "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
+        "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FGlobal%20Electronics%20Retailer%20Analysis%201%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
     },
     {
@@ -101,7 +102,7 @@ export default function Portfolio() {
       image: "/images/project7.png",
       category: "POWERBI",
       details:
-        "The UK Train Ride project is a comprehensive data analysis and visualization initiative that explores railway travel data in the United Kingdom. Using real-world train ride data, this project uncovers insights into passenger behavior, journey trends, revenue generation, and route performance.",
+        "The UK Train Ride project is a comprehensive data analysis and visualization initiative that explores railway travel data in the United Kingdom. Using real-world train ride data, this project uncovers insights into passenger behavior, journey trends, revenue generation, and route performance.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FUK%20Train%20Rides%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
     },
     {
@@ -111,7 +112,7 @@ export default function Portfolio() {
       image: "/images/project8.png",
       category: "POWERBI",
       details:
-        "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
+        "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FIncome%20Dataset%20in%20USA%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
     },
     {
@@ -121,7 +122,7 @@ export default function Portfolio() {
       image: "/images/project9.png",
       category: "POWERBI",
       details:
-        "The CRM Sales Opportunities Dashboard is an end-to-end business intelligence solution built to empower sales leaders with visibility into opportunity trends, pipeline health, product performance, and team effectiveness. Leveraging data from core CRM modules such as Accounts, Sales Team, Products, and the Sales Pipeline, this dashboard provides a centralized, interactive platform for tracking, forecasting, and optimizing sales opportunities.",
+        "The CRM Sales Opportunities Dashboard is an end-to-end business intelligence solution built to empower sales leaders with visibility into opportunity trends, pipeline health, product performance, and team effectiveness. Leveraging data from core CRM modules such as Accounts, Sales Team, Products, and the Sales Pipeline, this dashboard provides a centralized, interactive platform for tracking, forecasting, and optimizing sales opportunities.",
       link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2F360%20Projects%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1"
     },
     {
@@ -131,13 +132,18 @@ export default function Portfolio() {
       image: "/images/project10.png",
       category: "SQL",
       details:
-        "Motor vehicle theft is a growing concern in New Zealand, affecting both urban and rural areas. With thousands of vehicles stolen annually, it is crucial to analyze patterns, identify high-risk locations, and uncover trends that can help curb this issue. This project aims to leverage data analysis techniques to derive insights that can benefit multiple stakeholders, including law enforcement agencies, policymakers, vehicle owners, and insurance companies.",
+        "Motor vehicle theft is a growing concern in New Zealand, affecting both urban and rural areas. With thousands of vehicles stolen annually, it is crucial to analyze patterns, identify high-risk locations, and uncover trends that can help curb this issue. This project aims to leverage data analysis techniques to derive insights that can benefit multiple stakeholders, including law enforcement agencies, policymakers, vehicle owners, and insurance companies.",
       link: "https://github.com/Sudaisib/SQL-Portfolio-Projects/blob/main/Motor%20Vehicle%20Theft%20Analysis/README.md"
     },
     
   ]
 
   const filteredProjects = filter === "ALL" ? projects : projects.filter((project) => project.category === filter)
+
+  const handleImagePreview = (imageSrc: string, e: React.MouseEvent) => {
+    e.stopPropagation()
+    setPreviewImage(imageSrc)
+  }
 
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
@@ -190,9 +196,11 @@ export default function Portfolio() {
               whileHover={{ y: -10 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
               layoutId={`project-container-${project.id}`}
-              onClick={() => setSelectedProject(project.id)}
             >
-              <motion.div className="relative h-64 overflow-hidden" layoutId={`project-image-${project.id}`}>
+              <motion.div 
+                className="relative h-64 overflow-hidden group" 
+                layoutId={`project-image-${project.id}`}
+              >
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
@@ -200,6 +208,33 @@ export default function Portfolio() {
                   className="object-cover transition-transform duration-500 hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                
+                {/* Preview Icon - appears on hover */}
+                <motion.button
+                  className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/30"
+                  onClick={(e) => handleImagePreview(project.image, e)}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 border border-white/30">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="text-white"
+                    >
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                  </div>
+                </motion.button>
+
                 <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">
                   {project.category}
                 </div>
@@ -214,6 +249,7 @@ export default function Portfolio() {
                 <motion.button
                   className="mt-4 text-green-500 font-medium flex items-center gap-1"
                   whileHover={{ x: 5 }}
+                  onClick={() => setSelectedProject(project.id)}
                 >
                   View Details
                   <svg
@@ -236,6 +272,50 @@ export default function Portfolio() {
           ))}
         </motion.div>
       </motion.main>
+
+      {/* Image Preview Modal */}
+      {previewImage && (
+        <motion.div
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          onClick={() => setPreviewImage(null)}
+        >
+          <motion.div
+            className="relative max-w-5xl max-h-[90vh] w-full h-full"
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ type: "spring", stiffness: 300, damping: 25 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <Image
+              src={previewImage}
+              alt="Preview"
+              fill
+              className="object-contain"
+            />
+            <button
+              className="absolute top-4 right-4 bg-white/20 backdrop-blur-sm rounded-full p-2 text-white hover:bg-white/30 transition-colors"
+              onClick={() => setPreviewImage(null)}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M18 6L6 18"></path>
+                <path d="M6 6l12 12"></path>
+              </svg>
+            </button>
+          </motion.div>
+        </motion.div>
+      )}
 
       {/* Project Detail Modal */}
       {selectedProject !== null && (
