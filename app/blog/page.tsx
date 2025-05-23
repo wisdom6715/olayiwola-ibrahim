@@ -123,6 +123,78 @@ export default function Blog() {
       category: "Cloud Computing",
       url: "https://sudais.hashnode.dev/multi-cloud-strategy-and-how-can-it-benefit-enterprises",
     },
+    {
+      id: 6,
+      title: "Mastering GitHub: A Beginner’s Guide to Code Hosting, Collaboration, and Version Control",
+      excerpt:
+        "In today’s fast-paced and collaborative software development environment, managing code efficiently is not just a convenience—it's a necessity. Version control, collaboration, and accountability form the backbone of successful projects, whether you're building enterprise applications, automating cloud infrastructure, or analyzing large datasets",
+      date: "May 14, 2025",
+      readTime: "7 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1747238377096/579d2fd6-dd77-4765-9e62-48f25aba9bf8.png",
+      category: "DevOps & Engineering",
+      url: "https://sudais.hashnode.dev/mastering-github-a-beginners-guide-to-code-hosting-collaboration-and-version-control",
+    },
+    {
+      id: 7,
+      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
+      excerpt:
+        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
+      date: "January 10, 2025",
+      readTime: "6 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
+    },
+    {
+      id: 8,
+      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
+      excerpt:
+        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
+      date: "January 10, 2025",
+      readTime: "6 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
+    },
+    {
+      id: 9,
+      title: "The Role of Excel in Business Intelligence and Data-Driven Decision-Making",
+      excerpt:
+        "As businesses across the globe embrace data as the new oil, the importance of tools that enable efficient data handling, analysis, and visualization cannot be overstated. In this age of real-time insights and agile decision-making, Business Intelligence (BI) has become the backbone of competitive advantage. At the heart of many BI strategies lies a familiar yet powerful tool—Microsoft Excel.",
+      date: "January 10, 2025",
+      readTime: "6 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1742055577748/6c9cdd55-6036-4b1a-955e-c6b42e319fac.png",
+      category: "Business Insights",
+      url: "https://sudais.hashnode.dev/the-role-of-excel-in-business-intelligence-and-data-driven-decision-making",
+    },
+    {
+      id: 10,
+      title: "Predictive Analytics Failures in Business: What Went Wrong and Why",
+      excerpt:
+        "As businesses around the world race to stay ahead in an increasingly data-driven landscape, predictive analytics has emerged as a game-changing tool. From forecasting customer behavior to optimizing supply chains, companies are betting big on data to drive smarter decisions and gain competitive advantage.",
+      date: "April 6, 2025",
+      readTime: "5 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1743949980107/7e817e15-8e8d-4b9a-b07d-35bc6c027a53.jpeg",
+      category: "Business Insights",
+      url: "https://sudais.hashnode.dev/predictive-analytics-failures-in-business-what-went-wrong-and-why",
+    },
+    {
+      id: 11,
+      title: "AI isn’t taking our jobs; it’s transforming them",
+      excerpt:
+        "As the world accelerates into a new era powered by artificial intelligence, machine learning, cloud computing, and automation, we are witnessing a fundamental shift in the nature of work itself. Rather than eliminating jobs, AI is reshaping roles, streamlining workflows, and creating entirely new categories of employment across industries—from healthcare and finance to education and creative arts.",
+      date: "March 18, 2025",
+      readTime: "5 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/2023/07/xI25SKwE-Artificial-intelligence.png",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/ai-isnt-taking-our-jobs-its-transforming-them/",
+    }
   ]
 
   const filteredPosts = blogPosts.filter((post) => {

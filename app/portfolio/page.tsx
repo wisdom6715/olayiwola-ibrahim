@@ -12,8 +12,8 @@ export default function Portfolio() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
   const [previewImage, setPreviewImage] = useState<string | null>(null)
 
-  // ... (containerVariants and itemVariants remain the same)
-    const containerVariants = {
+
+  const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -42,9 +42,9 @@ export default function Portfolio() {
       title: "US Super Store Sales Analysis",
       description: "The US Super Store Sales Analysis project is a retail analytics case study that examines sales, profitability, customer behavior, product trends, and regional performance using transactional data from a fictional U.S. superstore.",
       image: "/images/project1.png",
-      category: "POWERBI",
+      category: "EXCEL",
       details: "The US Super Store Sales Analysis project is a comprehensive retail analytics case study focused on uncovering insights from transactional data of a fictional superstore operating across the United States. It explores key business areas such as sales performance, profitability, customer behavior, product trends, and regional operations.",
-      link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7Be4fc1605-5ff1-4b0e-b527-eecb52cf55c0%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_ZT1TS0lEcW8&slrid=9ab6a0a1-b052-0000-6465-d0d5eb599653&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VRVVdfT1R4WHc1THRTZnV5MUxQVmNBQjNCUWk2VWp1MkVUV0pwOXJOZWhDZXc_cnRpbWU9S0p3NzFGMlozVWc&CID=9e5a26a5-ac12-4ca7-b00c-f3cc6c11e035&_SRM=0:G:61",
+      link: "https://1drv.ms/x/c/476753bb47a7d227/EQUW_OTxXw5LtSfuy1LPVcABc0z04OZUabYdIURb3juesA?e=5Z5W46",
       keyInsights: [
         "Total Revenue: $1,924,338 with Average Profit Margin: 12%",
         "Technology generates highest revenue (37%), followed by Furniture (34%) and Office Supplies (29%)",
@@ -65,9 +65,9 @@ export default function Portfolio() {
       title: "Airline Passenger Satisfaction Analysis",
       description: "A data-driven analysis of key factors influencing airline passenger satisfaction using real-world survey data.",
       image: "/images/project2.png",
-      category: "POWERBI",
+      category: "EXCEL",
       details: "The Airline Passenger Satisfaction Analysis project is a comprehensive study focused on understanding the key factors that influence passenger satisfaction in the airline industry. Using real-world survey data, this project analyzes various aspects of the passenger experience, including demographics, travel behavior, service quality, flight performance, and delays.",
-      link: "https://onedrive.live.com/personal/476753bb47a7d227/_layouts/15/Doc.aspx?sourcedoc=%7B4327ad78-7ce3-432b-ace7-68185beec25b%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_ZT1VaHNNSEg&slrid=63b8a0a1-2067-0000-5fa9-c8d740d9f94f&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VYaXRKMFBqZkN0RHJPZG9HRnZ1d2xzQklfQ2Z1Wkg5SE8zVkJKWGdocXhjVEE_cnRpbWU9MlZaek1tS1ozVWc&CID=e3034c5a-056f-43fb-b735-586c17103c63&_SRM=0:G:37",
+      link: "https://1drv.ms/x/c/476753bb47a7d227/EVSxbpYw5slAjZFi_4SihI4BPXgeOgH7Lunfs0qnBg0Rsg?e=p3yDjD",
       keyInsights: [
         "Business travel (89,693) far exceeds personal travel (40,187)",
         "73,452 passengers are Neutral or Dissatisfied vs 56,428 Satisfied",
@@ -88,9 +88,9 @@ export default function Portfolio() {
       title: "Amazon Sales Performance Analysis",
       description: "A data-driven analysis of Amazon sales trends, product performance, customer preferences, and regional distribution.",
       image: "/images/project3.png",
-      category: "POWERBI",
+      category: "EXCEL",
       details: "The Amazon Sales Performance Analysis project is a data-driven exploration of sales activities on one of the world's largest e-commerce platforms. This analysis focuses on understanding sales trends, product performance, customer preferences, delivery efficiency, and regional sales distribution",
-      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk",
+      link: "https://1drv.ms/x/c/476753bb47a7d227/Ef_K4bCibNJIqXJVU0hVFIwB3rlaspoGKGbjj8qM13WZAA?e=qaA7gf",
       keyInsights: [
         "Refrigerators, Laptops, and Smartphones generated over 60% of total revenue",
         "February had highest revenue ($122,695) despite March having most orders",
@@ -111,9 +111,9 @@ export default function Portfolio() {
       title: "Bank Churn Analysis",
       description: "An analysis of customer data to identify key factors influencing bank customer churn and predict attrition patterns.",
       image: "/images/project4.png",
-      category: "POWERBI",
+      category: "EXCEL",
       details: "The Bank Churn Analysis project focuses on identifying key factors that contribute to customer attrition in a banking environment. Using a dataset containing customer demographics, account information, and banking activity, this project aims to uncover patterns and behaviors that indicate whether a customer is likely to leave the bank (churn).",
-      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/Ef_K4bCibNJIqXJVU0hVFIwBn5H-GXi5MmHwYjNyoo2mIg?resid=476753BB47A7D227!sb0e1caff6ca248d2a97255534855148c&ithint=file%2Cxlsx&e=ek6KFy&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VmX0s0YkNpYk5KSXFYSlZVMGhWRkl3Qm41SC1HWGk1TW1Id1lqTnlvbzJtSWc_ZT1lazZLRnk",
+      link: "https://1drv.ms/x/c/476753bb47a7d227/ES11AXiDdtRLhm_vAaA_vTcBbmlxit7dOOCxU-haIsvkXA?e=8JseS9",
       keyInsights: [
         "Overall Churn Rate: 20.4% (2,037 churned)",
         "Middle-aged (1,057 churned) and Seniors (283 churned) show higher churn",
@@ -134,9 +134,9 @@ export default function Portfolio() {
       title: "MTN Customer Churn Analysis",
       description: "An Excel-based BI dashboard analyzing customer churn, retention trends, and revenue patterns in the MTN Pulse segment.",
       image: "/images/project5.png",
-      category: "POWERBI",
+      category: "EXCEL",
       details: "The MTN Pulse Churn Analysis & Retention Intelligence Dashboard is a business intelligence solution designed to uncover key factors driving customer churn and revenue fluctuations within the MTN Pulse segment. Built using Microsoft Excel, this project provides a centralized, interactive environment to monitor retention trends, subscription behaviors, and revenue performance metrics",
-      link: "https://onedrive.live.com/:x:/g/personal/476753BB47A7D227/EW4Oclat5qVEuOtklIMcmucBCSWwuMZg8F-78OPAHpO87Q?resid=476753BB47A7D227!s56720e6ee6ad44a5b8eb6494831c9ae7&ithint=file%2Cxlsx&e=vUu2bd&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvYy80NzY3NTNiYjQ3YTdkMjI3L0VXNE9jbGF0NXFWRXVPdGtsSU1jbXVjQkNTV3d1TVpnOEYtNzhPUEFIcE84N1E_ZT12VXUyYmQ",
+      link: "https://1drv.ms/x/c/476753bb47a7d227/ETY-6KX2Up1NgIIqL5zF57ABH2z5bN9w7dwpUYSne5chJw?e=8r548Y",
       keyInsights: [
         "Female customers, seniors and middle-aged users show higher churn rates",
         "Churn is high even among customers with 'Very Good' satisfaction ratings",
@@ -159,7 +159,7 @@ export default function Portfolio() {
       image: "/images/project6.png",
       category: "POWERBI",
       details: "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
-      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FGlobal%20Electronics%20Retailer%20Analysis%201%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiZDM5MTNmNTEtZTJiYy00MDgxLWIwOTItMzc2YzVjZWFhNzIxIiwidCI6ImY4NGE2ODk5LTUyMWQtNGRhZS1hZThjLTgyNTkyOGExMDcyOCJ9",
       keyInsights: [
         "Online stores outperform offline stores in revenue",
         "Camera category leads with $19 million in revenue (34.6% of total sales)",
@@ -180,9 +180,9 @@ export default function Portfolio() {
       title: "UK Train Rides Analysis",
       description: "The UK Train Ride project analyzes real-world railway data to uncover insights into passenger behavior, journey trends, revenue, and route performance.",
       image: "/images/project7.png",
-      category: "EXCEL",
+      category: "POWERBI",
       details: "The UK Train Ride project is a comprehensive data analysis and visualization initiative that explores railway travel data in the United Kingdom. Using real-world train ride data, this project uncovers insights into passenger behavior, journey trends, revenue generation, and route performance.",
-      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FUK%20Train%20Rides%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiMGM3YzgxMTgtNDAyZS00NzA5LThhMTMtYjU1NDBhNDg1NmIwIiwidCI6ImY4NGE2ODk5LTUyMWQtNGRhZS1hZThjLTgyNTkyOGExMDcyOCJ9",
       keyInsights: [
         "UK rail network accommodates over 1.7 billion passenger journeys annually",
         "London stations account for majority of traffic",
@@ -203,9 +203,9 @@ export default function Portfolio() {
       title: "Adult Census Income in USA",
       description: "The Adult Census Income Dashboard predicts income levels based on U.S. demographic and occupational data, revealing key socioeconomic trends.",
       image: "/images/project8.png",
-      category: "EXCEL",
+      category: "POWERBI",
       details: "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
-      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2FIncome%20Dataset%20in%20USA%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiYTFiZTVmMDAtN2Q3Yy00NTBlLTkwMmQtNGM2NTQxY2U1MTI4IiwidCI6ImY4NGE2ODk5LTUyMWQtNGRhZS1hZThjLTgyNTkyOGExMDcyOCJ9",
       keyInsights: [
         "76% of individuals earn less than $50K annually",
         "Seniors dominate high income bracket while Young Adults lag behind",
@@ -226,9 +226,9 @@ export default function Portfolio() {
       title: "CRM Sales Opportunities",
       description: "The CRM Sales Opportunities Dashboard is a BI tool that visualizes opportunity trends, pipeline health, and sales performance using core CRM data.",
       image: "/images/project9.png",
-      category: "EXCEL",
+      category: "POWERBI",
       details: "The CRM Sales Opportunities Dashboard is an end-to-end business intelligence solution built to empower sales leaders with visibility into opportunity trends, pipeline health, product performance, and team effectiveness. Leveraging data from core CRM modules such as Accounts, Sales Team, Products, and the Sales Pipeline, this dashboard provides a centralized, interactive platform for tracking, forecasting, and optimizing sales opportunities.",
-      link: "https://universityoflagos-my.sharepoint.com/personal/180205152_live_unilag_edu_ng/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments%2F360%20Projects%2Epbix&parent=%2Fpersonal%2F180205152%5Flive%5Funilag%5Fedu%5Fng%2FDocuments&ga=1",
+      link: "https://app.powerbi.com/view?r=eyJrIjoiZjIxY2Y2ZjItMDU4MC00MjA5LTk2ZGQtYjcxYjFhYjU5ZTc2IiwidCI6ImY4NGE2ODk5LTUyMWQtNGRhZS1hZThjLTgyNTkyOGExMDcyOCJ9",
       keyInsights: [
         "Sales pipeline heavily weighted toward early-stage opportunities",
         "Won opportunities drive highest revenue contribution",
@@ -266,8 +266,32 @@ export default function Portfolio() {
         "Educate owners about advanced security devices",
         "Develop AI-driven predictive models for theft prevention"
       ]
+    },
+    {
+      id: 11,
+      title: "Netflix Movies & TV Shows",
+      description: "A data-driven analysis of Netflix's global content trends, viewer preferences, and catalog strategies based on metadata from its library.",
+      image: "/images/project11.png",
+      category: "SQL",
+      details: "The Netflix Movies & TV Shows Analysis project explores global content trends, viewer preferences, and strategic content distribution on one of the world’s leading streaming platforms. Using a dataset containing metadata about Netflix’s catalog—including titles, genres, release years, ratings, cast, countries, and duration—this analysis provides insights into how Netflix curates and evolves its library to meet diverse audience demands.",
+      link: "https://github.com/Sudaisib/SQL-Portfolio-Projects/tree/main/Netflix%20Movies%20and%20TV%20Shows",
+      keyInsights: [
+        "Movies dominate Netflix’s catalog, but TV Shows are substantial.",
+        "TV Shows tend to have a more consistent rating structure.",
+        "United States, India, and the UK are major content providers.",
+        "Genres like Documentaries and Dramas are prominently featured.",
+        "Recent years have seen a spike in content addition, especially from India.",
+        "Keyword analysis helps identify potentially violent content"
+      ],
+      recommendations: [
+        "For Viewers: Use genre and rating trends to guide content choices.",
+        "For Netflix: Increase localization for countries with growing contributions (like India).",
+        "For Content Strategy: Track high-performing genres and expand content in those niches.",
+        "For Content Moderation: Consider keyword tagging to identify mature or violent content.",
+      ]
     }
   ]
+
 
   // ... (filteredProjects and handleImagePreview remain the same)
   const filteredProjects = filter === "ALL" ? projects : projects.filter((project) => project.category === filter)
