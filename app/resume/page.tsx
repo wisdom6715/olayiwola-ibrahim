@@ -108,7 +108,7 @@ export default function Resume() {
 
               <div className="mt-8">
                 <a
-                  href="https://drive.google.com/file/d/1-2XYZ"
+                  href="https://docs.google.com/document/d/14dRVIva2PCw_LJkaHIHe0frag8j5CKiO/edit?usp=sharing&ouid=108142986044979024430&rtpof=true&sd=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-md transition-colors"

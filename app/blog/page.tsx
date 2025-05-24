@@ -67,13 +67,13 @@ export default function Blog() {
       id: 1,
       title: "Nigeria’s economic future rests on tech — Not oil",
       excerpt:
-        "As global economies rapidly evolve through artificial intelligence, data science, cloud computing, and digital entrepreneurship, the world is clearly shifting toward knowledge-based and innovation-driven growth models. Countries that invest in technology and digital infrastructure are reaping the benefits of increased productivity, job creation, and global competitiveness.",
+        "As AI, data science, cloud computing, and digital entrepreneurship reshape global economies, the shift toward knowledge-based, innovation-driven growth is clear. Nations investing in technology and digital infrastructure are seeing gains in productivity, jobs, and competitiveness.",
       date: "January 25, 2023",
       readTime: "8 min read",
       author: "Oladosu Ibrahim",
       image: "/images/blog1.png",
       category: "Business Insights",
-      url: "https://sudais.hashnode.dev/multi-cloud-strategy-and-how-can-it-benefit-enterprises",
+      url: "https://businessday.ng/opinion/article/nigerias-economic-future-rests-on-tech-not-oil/",
     },
 
     {
