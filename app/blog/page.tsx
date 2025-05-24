@@ -89,7 +89,7 @@ export default function Blog() {
       url: "https://businessday.ng/opinion/article/ai-isnt-taking-our-jobs-its-transforming-them/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
       excerpt:
         "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
@@ -101,7 +101,7 @@ export default function Blog() {
       url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
     },
     {
-      id: 3,
+      id: 4,
       title: "The Role of Excel in Business Intelligence and Data-Driven Decision-Making",
       excerpt:
         "As businesses across the globe embrace data as the new oil, the importance of tools that enable efficient data handling, analysis, and visualization cannot be overstated. In this age of real-time insights and agile decision-making, Business Intelligence (BI) has become the backbone of competitive advantage. At the heart of many BI strategies lies a familiar yet powerful tool—Microsoft Excel.",
@@ -113,7 +113,7 @@ export default function Blog() {
       url: "https://sudais.hashnode.dev/the-role-of-excel-in-business-intelligence-and-data-driven-decision-making",
     },
     {
-      id: 4,
+      id: 5,
       title: "Predictive Analytics Failures in Business: What Went Wrong and Why",
       excerpt:
         "As businesses around the world race to stay ahead in an increasingly data-driven landscape, predictive analytics has emerged as a game-changing tool. From forecasting customer behavior to optimizing supply chains, companies are betting big on data to drive smarter decisions and gain competitive advantage.",
@@ -123,7 +123,19 @@ export default function Blog() {
       image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1743949980107/7e817e15-8e8d-4b9a-b07d-35bc6c027a53.jpeg",
       category: "Business Insights",
       url: "https://sudais.hashnode.dev/predictive-analytics-failures-in-business-what-went-wrong-and-why",
-    }
+    },
+    {
+      id: 6,
+      title: "Multi-Cloud Strategy and How Can It Benefit Enterprises",
+      excerpt:
+        "A multi-cloud strategy involves using multiple cloud computing services from different providers. This article explores the benefits and challenges of implementing a multi-cloud strategy for enterprise organizations.",
+      date: "January 25, 2023",
+      readTime: "8 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop",
+      category: "Cloud Computing",
+      url: "https://sudais.hashnode.dev/multi-cloud-strategy-and-how-can-it-benefit-enterprises",
+    },
   ]
 
   const filteredPosts = blogPosts.filter((post) => {
