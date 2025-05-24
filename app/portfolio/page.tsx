@@ -157,7 +157,6 @@ export default function Portfolio() {
           </motion.div>
         )}
 
-        {/* ... (rest of your component remains the same) */}
         <motion.div className="grid md:grid-cols-2 gap-8" variants={containerVariants}>
             {filteredProjects.map((project) => (
                 <motion.div
@@ -340,31 +339,41 @@ export default function Portfolio() {
                             <h4 className="text-lg font-semibold mb-2">Project Details</h4>
                             <p className="text-gray-300 mb-6">{project.details}</p>
                             
-                            <div className="grid md:grid-cols-2 gap-6">
-                              <div>
-                                <h4 className="text-lg font-semibold mb-3 text-green-400">Key Insights</h4>
-                                <ul className="space-y-2">
-                                  {project.keyInsights.map((insight, index) => (
-                                    <li key={index} className="flex items-start">
-                                      <span className="text-green-500 mr-2">•</span>
-                                      <span className="text-gray-300">{insight}</span>
-                                    </li>
-                                  ))}
-                                </ul>
+                            {/* Only show the grid if at least one section has content */}
+                            {((project.keyInsights && project.keyInsights.length > 0) || 
+                              (project.recommendations && project.recommendations.length > 0)) && (
+                              <div className="grid md:grid-cols-2 gap-6">
+                                {/* Key Insights - only show if exists and not empty */}
+                                {project.keyInsights && project.keyInsights.length > 0 && (
+                                  <div>
+                                    <h4 className="text-lg font-semibold mb-3 text-green-400">Key Insights</h4>
+                                    <ul className="space-y-2">
+                                      {project.keyInsights.map((insight, index) => (
+                                        <li key={index} className="flex items-start">
+                                          <span className="text-green-500 mr-2">•</span>
+                                          <span className="text-gray-300">{insight}</span>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                )}
+                                
+                                {/* Recommendations - only show if exists and not empty */}
+                                {project.recommendations && project.recommendations.length > 0 && (
+                                  <div>
+                                    <h4 className="text-lg font-semibold mb-3 text-green-400">Recommendations</h4>
+                                    <ul className="space-y-2">
+                                      {project.recommendations.map((recommendation, index) => (
+                                        <li key={index} className="flex items-start">
+                                          <span className="text-green-500 mr-2">•</span>
+                                          <span className="text-gray-300">{recommendation}</span>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                )}
                               </div>
-                              
-                              <div>
-                                <h4 className="text-lg font-semibold mb-3 text-green-400">Recommendations</h4>
-                                <ul className="space-y-2">
-                                  {project.recommendations.map((recommendation, index) => (
-                                    <li key={index} className="flex items-start">
-                                      <span className="text-green-500 mr-2">•</span>
-                                      <span className="text-gray-300">{recommendation}</span>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            </div>
+                            )}
                             
                             <div className="mt-6">
                               <Link 
