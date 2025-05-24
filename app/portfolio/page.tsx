@@ -121,7 +121,7 @@ export default function Portfolio() {
           >
             <div className="relative group">
               <button className="px-6 py-2 bg-gray-700 rounded-md flex items-center gap-2">
-                AWS Services: {awsSubFilter}
+                AWS Projects: {awsSubFilter}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
