@@ -63,104 +63,45 @@ export default function Blog() {
   ]
 
   const blogPosts = [
+
     {
       id: 1,
-      title: "Mounting Amazon EFS on an EC2 Instance in AWS: A Step-by-Step Guide",
+      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
       excerpt:
-        "Amazon Elastic File System (EFS) provides scalable file storage for use with Amazon EC2 instances. In this guide, I'll walk you through the process of creating and mounting an EFS file system on an EC2 instance.",
-      date: "May 15, 2023",
+        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
+      date: "January 10, 2025",
       readTime: "6 min read",
       author: "Oladosu Ibrahim",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
-      category: "Cloud Computing",
-      url: "https://sudais.hashnode.dev/mounting-amazon-efs-on-an-ec2-instance-in-aws-a-step-by-step-guide",
+      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
     },
     {
       id: 2,
-      title: "Step-by-Step Guide to Creating an IAM User in AWS",
+      title: "AI isn’t taking our jobs; it’s transforming them",
       excerpt:
-        "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. In this guide, I'll walk you through the process of creating an IAM user in AWS.",
-      date: "April 20, 2023",
+        "As the world accelerates into a new era powered by artificial intelligence, machine learning, cloud computing, and automation, we are witnessing a fundamental shift in the nature of work itself. Rather than eliminating jobs, AI is reshaping roles, streamlining workflows, and creating entirely new categories of employment across industries—from healthcare and finance to education and creative arts.",
+      date: "March 18, 2025",
       readTime: "5 min read",
       author: "Oladosu Ibrahim",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
-      category: "Cloud Computing",
-      url: "https://sudais.hashnode.dev/step-by-step-guide-to-creating-an-iam-user-in-aws",
+      image: "https://cdn.businessday.ng/2023/07/xI25SKwE-Artificial-intelligence.png",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/ai-isnt-taking-our-jobs-its-transforming-them/",
+    },
+    {
+      id: 2,
+      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
+      excerpt:
+        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
+      date: "January 10, 2025",
+      readTime: "6 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
     },
     {
       id: 3,
-      title: "The Role of Excel in Business Intelligence and Data-Driven Decision Making",
-      excerpt:
-        "Microsoft Excel is a powerful tool for data analysis and business intelligence. In this article, I explore how Excel can be used for data-driven decision making in modern organizations.",
-      date: "March 12, 2023",
-      readTime: "7 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-      category: "Data Analysis",
-      url: "https://sudais.hashnode.dev/the-role-of-excel-in-business-intelligence-and-data-driven-decision-making",
-    },
-    {
-      id: 4,
-      title: "Step-by-Step Guide: Creating a Linux Virtual Machine on Microsoft Azure",
-      excerpt:
-        "Microsoft Azure provides a robust platform for creating and managing virtual machines. In this guide, I'll walk you through the process of creating a Linux virtual machine on Azure.",
-      date: "February 18, 2023",
-      readTime: "6 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=2070&auto=format&fit=crop",
-      category: "Cloud Computing",
-      url: "https://sudais.hashnode.dev/step-by-step-guide-creating-a-linux-virtual-machine-on-microsoft-azure",
-    },
-    {
-      id: 5,
-      title: "Multi-Cloud Strategy and How Can It Benefit Enterprises",
-      excerpt:
-        "A multi-cloud strategy involves using multiple cloud computing services from different providers. This article explores the benefits and challenges of implementing a multi-cloud strategy for enterprise organizations.",
-      date: "January 25, 2023",
-      readTime: "8 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop",
-      category: "Cloud Computing",
-      url: "https://sudais.hashnode.dev/multi-cloud-strategy-and-how-can-it-benefit-enterprises",
-    },
-    {
-      id: 6,
-      title: "Mastering GitHub: A Beginner’s Guide to Code Hosting, Collaboration, and Version Control",
-      excerpt:
-        "In today’s fast-paced and collaborative software development environment, managing code efficiently is not just a convenience—it's a necessity. Version control, collaboration, and accountability form the backbone of successful projects, whether you're building enterprise applications, automating cloud infrastructure, or analyzing large datasets",
-      date: "May 14, 2025",
-      readTime: "7 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1747238377096/579d2fd6-dd77-4765-9e62-48f25aba9bf8.png",
-      category: "DevOps & Engineering",
-      url: "https://sudais.hashnode.dev/mastering-github-a-beginners-guide-to-code-hosting-collaboration-and-version-control",
-    },
-    {
-      id: 7,
-      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
-      excerpt:
-        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
-      date: "January 10, 2025",
-      readTime: "6 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
-      category: "Business Insights",
-      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
-    },
-    {
-      id: 8,
-      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
-      excerpt:
-        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
-      date: "January 10, 2025",
-      readTime: "6 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
-      category: "Business Insights",
-      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
-    },
-    {
-      id: 9,
       title: "The Role of Excel in Business Intelligence and Data-Driven Decision-Making",
       excerpt:
         "As businesses across the globe embrace data as the new oil, the importance of tools that enable efficient data handling, analysis, and visualization cannot be overstated. In this age of real-time insights and agile decision-making, Business Intelligence (BI) has become the backbone of competitive advantage. At the heart of many BI strategies lies a familiar yet powerful tool—Microsoft Excel.",
@@ -172,7 +113,7 @@ export default function Blog() {
       url: "https://sudais.hashnode.dev/the-role-of-excel-in-business-intelligence-and-data-driven-decision-making",
     },
     {
-      id: 10,
+      id: 4,
       title: "Predictive Analytics Failures in Business: What Went Wrong and Why",
       excerpt:
         "As businesses around the world race to stay ahead in an increasingly data-driven landscape, predictive analytics has emerged as a game-changing tool. From forecasting customer behavior to optimizing supply chains, companies are betting big on data to drive smarter decisions and gain competitive advantage.",
@@ -182,18 +123,6 @@ export default function Blog() {
       image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1743949980107/7e817e15-8e8d-4b9a-b07d-35bc6c027a53.jpeg",
       category: "Business Insights",
       url: "https://sudais.hashnode.dev/predictive-analytics-failures-in-business-what-went-wrong-and-why",
-    },
-    {
-      id: 11,
-      title: "AI isn’t taking our jobs; it’s transforming them",
-      excerpt:
-        "As the world accelerates into a new era powered by artificial intelligence, machine learning, cloud computing, and automation, we are witnessing a fundamental shift in the nature of work itself. Rather than eliminating jobs, AI is reshaping roles, streamlining workflows, and creating entirely new categories of employment across industries—from healthcare and finance to education and creative arts.",
-      date: "March 18, 2025",
-      readTime: "5 min read",
-      author: "Oladosu Ibrahim",
-      image: "https://cdn.businessday.ng/2023/07/xI25SKwE-Artificial-intelligence.png",
-      category: "Business Insights",
-      url: "https://businessday.ng/opinion/article/ai-isnt-taking-our-jobs-its-transforming-them/",
     }
   ]
 
