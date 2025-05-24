@@ -133,7 +133,7 @@ export default function Home() {
 
 
             <Link
-              href="https://github.com/oladosuibrahim"
+              href="https://github.com/Sudaisib"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-800 p-3 rounded-full hover:bg-gray-700 transition-colors"
