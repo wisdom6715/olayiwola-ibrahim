@@ -266,7 +266,7 @@ export default function portfolioProjects(){
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
       category: "AWS",
       subcategory: "EC2",
-      link: "https://sudais.hashnode.dev/mounting-amazon-efs-on-an-ec2-instance-in-aws-a-step-by-step-guide",
+      link: "https://github.com/Sudaisib/AWS-Projects-Portfolio/tree/main/Mounting%20Amazon%20EFS%20on%20an%20EC2%20Instance%20in%20AWS",
     },
     {
       id: 13,
@@ -276,10 +276,10 @@ export default function portfolioProjects(){
       recommendations: [],
       details:
         "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. In this guide, I'll walk you through the process of creating an IAM user in AWS.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1743071132022/710b3e25-ec10-4697-ab7e-7d2bd12b180e.png",
       category: "AWS",
       subcategory: "IAM",
-      link: "https://sudais.hashnode.dev/step-by-step-guide-to-creating-an-iam-user-in-aws",
+      link: "https://github.com/Sudaisib/AWS-Projects-Portfolio/blob/main/AWS%20IAM%20User%20Guide/README.md",
     },
     {
       id: 14,

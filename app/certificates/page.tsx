@@ -45,6 +45,14 @@ export default function Certificates() {
 
   const certificates = [
     {
+      id: "github",
+      title: "Github Foundation",
+      image: "/images/cert6.png",
+      issuer: "Github",
+      date: "13th May, 2025",
+      credentialId: "SQA001560968713",
+    },
+    {
       id: "pwc",
       title: "Power BI Job Simulation",
       image: "/images/cert4.png",
@@ -83,15 +91,7 @@ export default function Certificates() {
       issuer: "DataCamp",
       date: "September 5, 2024",
       credentialId: "SQA001560968710",
-    },
-    {
-      id: "github",
-      title: "Github Foundation",
-      image: "/images/cert6.png",
-      issuer: "Github",
-      date: "13th May, 2025",
-      credentialId: "SQA001560968713",
-    },
+    }
   ]
 
   return (

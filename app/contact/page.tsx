@@ -7,7 +7,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Share2, Linkedin, Instagram } from "lucide-react"
+import { Mail, Phone, MapPin, Share2, Linkedin, Github } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Link from "next/link"
 
@@ -129,7 +129,7 @@ export default function Contact() {
             </div>
             <div className="flex space-x-3">
               <Link
-                href="https://www.linkedin.com/in/okwarachristian/"
+                href="https://www.linkedin.com/in/oladosu-ibrahim/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#004a99] hover:text-[#003366]"
@@ -138,13 +138,13 @@ export default function Contact() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="https://www.instagram.com/chrumon/"
+                href="https://github.com/Sudaisib"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#004a99] hover:text-[#003366]"
               >
-                <Instagram size={24} />
-                <span className="sr-only">Instagram</span>
+                <Github size={24} />
+                <span className="sr-only">Github</span>
               </Link>
             </div>
           </motion.div>

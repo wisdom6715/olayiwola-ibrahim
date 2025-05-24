@@ -32,33 +32,40 @@ export default function Home() {
   const blogPosts = [
     {
       id: 1,
-      title: "Mounting Amazon EFS on an EC2 Instance in AWS: A Step-by-Step Guide",
+      title: "Nigeria’s economic future rests on tech — Not oil",
       excerpt:
-        "Amazon Elastic File System (EFS) provides scalable file storage for use with Amazon EC2 instances. In this guide, I'll walk you through the process of creating and mounting an EFS file system on an EC2 instance.",
-      date: "May 15, 2023",
-      readTime: "6 min read",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
-      url: "https://sudais.hashnode.dev/mounting-amazon-efs-on-an-ec2-instance-in-aws-a-step-by-step-guide",
+        "As global economies rapidly evolve through artificial intelligence, data science, cloud computing, and digital entrepreneurship, the world is clearly shifting toward knowledge-based and innovation-driven growth models. Countries that invest in technology and digital infrastructure are reaping the benefits of increased productivity, job creation, and global competitiveness.",
+      date: "January 25, 2023",
+      readTime: "8 min read",
+      author: "Oladosu Ibrahim",
+      image: "/images/blog1.png",
+      category: "Business Insights",
+      url: "https://sudais.hashnode.dev/multi-cloud-strategy-and-how-can-it-benefit-enterprises",
     },
+
     {
       id: 2,
-      title: "Step-by-Step Guide to Creating an IAM User in AWS",
+      title: "Cloud adoption in Nigeria’s banking: The key to a modern, inclusive future",
       excerpt:
-        "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. In this guide, I'll walk you through the process of creating an IAM user in AWS.",
-      date: "April 20, 2023",
-      readTime: "5 min read",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
-      url: "https://sudais.hashnode.dev/step-by-step-guide-to-creating-an-iam-user-in-aws",
+        "Cloud computing is no longer a futuristic concept—it is the engine powering modern banking systems around the world. From enabling real-time transactions to supporting scalable digital services, cloud technology is redefining how financial institutions operate and engage with customers.",
+      date: "January 10, 2025",
+      readTime: "6 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/wp-content/uploads/2025/01/unnamed-3.jpg",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/cloud-adoption-in-nigerias-banking-the-key-to-a-modern-inclusive-future/",
     },
     {
       id: 3,
-      title: "The Role of Excel in Business Intelligence and Data-Driven Decision Making",
+      title: "AI isn’t taking our jobs; it’s transforming them",
       excerpt:
-        "Microsoft Excel is a powerful tool for data analysis and business intelligence. In this article, I explore how Excel can be used for data-driven decision making in modern organizations.",
-      date: "March 12, 2023",
-      readTime: "7 min read",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-      url: "https://sudais.hashnode.dev/the-role-of-excel-in-business-intelligence-and-data-driven-decision-making",
+        "As the world accelerates into a new era powered by artificial intelligence, machine learning, cloud computing, and automation, we are witnessing a fundamental shift in the nature of work itself. Rather than eliminating jobs, AI is reshaping roles, streamlining workflows, and creating entirely new categories of employment across industries—from healthcare and finance to education and creative arts.",
+      date: "March 18, 2025",
+      readTime: "5 min read",
+      author: "Oladosu Ibrahim",
+      image: "https://cdn.businessday.ng/2023/07/xI25SKwE-Artificial-intelligence.png",
+      category: "Business Insights",
+      url: "https://businessday.ng/opinion/article/ai-isnt-taking-our-jobs-its-transforming-them/",
     },
   ]
 
