@@ -265,6 +265,7 @@ export default function portfolioProjects(){
       recommendations: [],
       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
       category: "AWS",
+      subcategory: "IAM",
       link: "https://sudais.hashnode.dev/mounting-amazon-efs-on-an-ec2-instance-in-aws-a-step-by-step-guide",
     },
     {
@@ -277,6 +278,7 @@ export default function portfolioProjects(){
         "AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. In this guide, I'll walk you through the process of creating an IAM user in AWS.",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop",
       category: "AWS",
+      subcategory: "IAM",
       link: "https://sudais.hashnode.dev/step-by-step-guide-to-creating-an-iam-user-in-aws",
     },
     {
