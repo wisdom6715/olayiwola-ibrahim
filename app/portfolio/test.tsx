@@ -159,8 +159,8 @@ export default function Portfolio() {
 
         {/* ... (rest of your component remains the same) */}
         <motion.div className="grid md:grid-cols-2 gap-8" variants={containerVariants}>
-                        {filteredProjects.map((project) => (
-                          <motion.div
+            {filteredProjects.map((project) => (
+                <motion.div
                             key={project.id}
                             variants={itemVariants}
                             whileHover={{ y: -10 }}
@@ -240,11 +240,10 @@ export default function Portfolio() {
                             </motion.div>
                           </motion.div>
                         ))}
-                      </motion.div>
-      </motion.main>
+            </motion.div>
+        </motion.main>
 
-      {/* ... (existing modals remain the same) */}
-      {/* Image Preview Modal */}
+        {/* Image Preview Modal */}
         {previewImage && (
             <motion.div
                 className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
