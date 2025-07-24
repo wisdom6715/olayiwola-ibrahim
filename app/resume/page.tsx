@@ -107,7 +107,7 @@ export default function Resume() {
 
               <div className="mt-8">
                 <a
-                  href="https://docs.google.com/document/d/14dRVIva2PCw_LJkaHIHe0frag8j5CKiO/edit?usp=sharing&ouid=108142986044979024430&rtpof=true&sd=true"
+                  href="https://www.canva.com/design/DAGuFb1JbB8/SN_rud-X2XCAuTLuTViJyQ/view?utm_content=DAGuFb1JbB8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2aadc3a58b"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-[#991dbe] hover:bg-[#c43bee] text-white rounded-md transition-colors"
