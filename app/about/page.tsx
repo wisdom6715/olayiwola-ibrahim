@@ -82,18 +82,15 @@ export default function About() {
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-300">
-              Beyond my technical expertise, I am passionate about knowledge sharing. I regularly contribute to the tech
-              community through my blog,{" "}
-              <Link
+            Founded IntuitionLabs and launched a product that attracted 500+ users in its first week, demonstrating rapid execution and user-driven development during its initial release phase.{" "}
+              {/* <Link
                 href="https://sudais.hashnode.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#ca33f8] hover:underline"
               >
-                Ibrahim's Cloud & Data Chronicles
-              </Link>
-              , where I explore topics related to Data, AI, Cloud, and DevOps, providing insights and best practices to
-              help others navigate the world of technology.
+                
+              </Link> */}
             </motion.p>
 
             <motion.h3 className="text-xl font-semibold mt-6" variants={itemVariants}>
