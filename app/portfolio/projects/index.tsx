@@ -36,7 +36,7 @@ export default function portfolioProjects(){
       image: "/images/DIDS.png",
       category: "WEB APP",
       details: "D-DIS continuously monitors database operations for anomalies or unauthorized changes, acting as a real-time intrusion detection system. Whether it's unexpected data insertion, deletion, or alterations to the database schema, the system identifies these actions and immediately sends detailed SMS alerts through the Twilio API to notify the administrator. This ensures rapid awareness and response to potential threats or malicious activities. D-DIS can be integrated into existing database environments and is ideal for developers, DevOps engineers, or security-conscious teams looking to add a lightweight, proactive alerting layer to their data infrastructure.",
-      link: ""
+      link: "https://github.com/wisdom6715/Database-Intrusion-Detection-System"
     },
 
     {
@@ -55,7 +55,7 @@ export default function portfolioProjects(){
       image: "/images/esher.png",
       category: "SAAS (WEB APP)",
       details: "Esher.AI enables online retailers to integrate advanced AI capabilities directly into their websites via a lightweight, developer-friendly API. Once integrated, the system analyzes user behavior, purchase patterns, and product data to deliver real-time product recommendations tailored to each visitor. Beyond recommendations, Esher.AI also provides deep product insights—helping businesses understand which products are performing well, which are trending, and where opportunities for upselling exist. Designed to scale with any e-commerce platform, Esher.AI helps businesses increase customer satisfaction, drive sales, and make smarter inventory and marketing decisions based on data.",
-      link: "",
+      link: "https://esher-ai-nc.vercel.app/",
     },
     {
       id: 6,
