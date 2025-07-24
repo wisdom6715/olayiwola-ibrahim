@@ -88,7 +88,7 @@ export default function portfolioProjects(){
       id: 7,
       title: "Codesphere",
       description: "Global Electronics, founded in 2005, is a leading consumer electronics brand operating in 8 countries, known for its innovative tech products and excellent customer service.",
-      image: "/images/Codesphere.png",
+      image: "/images/codesphere.png",
       category: "WEBSITE",
       details: "Founded in 2005, Global Electronics is a global leader in consumer electronics, offering a wide range of tech products including computers, phones, TVs, appliances, and more. With a presence in 8 countries, the company has built a reputation for quality, innovation, and exceptional customer service.",
       link: "https://academy-nexus.vercel.app/home",
@@ -116,7 +116,7 @@ export default function portfolioProjects(){
       id: 9,
       title: "Chattify",
       description: "The Adult Census Income Dashboard predicts income levels based on U.S. demographic and occupational data, revealing key socioeconomic trends.",
-      image: "/images/Chattify.png",
+      image: "/images/chattify.png",
       category: "WEB APP",
       details: "The Adult Census Income in USA Dashboard analyzes demographic and occupational patterns to predict whether an individual earns more or less than $50,000 per year. Built for data-driven insights, this project explores socioeconomic trends across age, education, gender, marital status, and more.",
       link: "https://wisdom-port-qq3o.vercel.app/"
