@@ -31,7 +31,7 @@ export default function About() {
 
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
-      <div className="bg-[#004a99]">
+      <div className="bg-[#991dbe]">
         <Navbar activePage="about" />
       </div>
 
@@ -46,7 +46,7 @@ export default function About() {
         </motion.div>
 
         <motion.div
-          className="w-32 h-1 bg-green-500 mb-8"
+          className="w-32 h-1 bg-[#991dbe] mb-8"
           initial={{ width: 0 }}
           animate={{ width: "8rem" }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -63,7 +63,7 @@ export default function About() {
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             className="relative overflow-hidden rounded-lg shadow-xl"
           >
-            <Image src="/images/profile.png" alt="Oladosu Ibrahim" width={500} height={600} className="w-full h-auto" />
+            <Image src="/images/profile.jpg" alt="Oladosu Ibrahim" width={500} height={600} className="w-full h-auto" />
             <motion.div
               className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
               initial={{ opacity: 0 }}
@@ -74,35 +74,11 @@ export default function About() {
 
           <div className="space-y-6">
             <motion.h2 className="text-2xl font-bold" variants={itemVariants}>
-              Hey there,
+              Hello 👋,
             </motion.h2>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-300">
-              I am a dedicated Data Analyst, Data Engineer, and Cloud/DevOps Engineer with a strong passion for data
-              analytics, data engineering, cloud computing, and DevOps automation. My expertise lies in transforming raw
-              data into valuable insights, designing and implementing scalable data pipelines, optimizing cloud
-              infrastructure, and streamlining operations through DevOps best practices.
-            </motion.p>
-
-            <motion.p variants={itemVariants} className="text-lg text-gray-300">
-              With a background in Accounting & Finance, I transitioned into the tech industry, leveraging my analytical
-              skills to help businesses adopt data-driven solutions and cloud architectures that enhance efficiency and
-              innovation.
-            </motion.p>
-
-            <motion.p variants={itemVariants} className="text-lg text-gray-300">
-              I am also the Founder of{" "}
-              <Link
-                href="https://codesphere.com.ng/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-500 hover:underline"
-              >
-                CodeSphere Academy
-              </Link>
-              , a platform committed to mentoring and training aspiring Data Analysts, Data Engineers, Cloud Engineers,
-              and other tech professionals. Through this initiative, I empower individuals with the skills needed to
-              excel in the ever-evolving tech landscape.
+              I’m a results-driven Web and Mobile Full Stack Developer with a strong focus on building scalable applications, and seamless user experiences. I specialize in both frontend and backend development, leveraging modern tools like React, Next.js, Node.js, and React Native to create high-performance solutions. From intuitive interfaces to robust APIs, I turn complex problems into clean, maintainable code.
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-300">
@@ -112,7 +88,7 @@ export default function About() {
                 href="https://sudais.hashnode.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-green-500 hover:underline"
+                className="text-[#ca33f8] hover:underline"
               >
                 Ibrahim's Cloud & Data Chronicles
               </Link>
@@ -130,10 +106,10 @@ export default function About() {
                 className="flex items-start p-4 bg-gray-800/50 rounded-lg"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
               >
-                <span className="text-green-500 mr-2 text-xl">✦</span>
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
                 <div>
-                  <strong className="block mb-1">Data Analysis & Visualization</strong>
-                  <p>Microsoft Excel, Power BI, Google Sheets, PowerPoint, Seaborn, Matplotlib</p>
+                  <strong className="block mb-1">Frontend Development</strong>
+                  <p>JavaScript (ES6+), Tailwind CSS, TypeScript, ReactJs, NextJs</p>
                 </div>
               </motion.li>
 
@@ -142,10 +118,10 @@ export default function About() {
                 className="flex items-start p-4 bg-gray-800/50 rounded-lg"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
               >
-                <span className="text-green-500 mr-2 text-xl">✦</span>
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
                 <div>
-                  <strong className="block mb-1">Databases & Query Languages</strong>
-                  <p>MySQL, PostgreSQL, NoSQL, MongoDB, Cassandra, Google BigQuery, Amazon RDS, Azure SQL Database</p>
+                  <strong className="block mb-1">Mobile Development</strong>
+                  <p>React Native, Expo, React Native CLI</p>
                 </div>
               </motion.li>
 
@@ -154,10 +130,10 @@ export default function About() {
                 className="flex items-start p-4 bg-gray-800/50 rounded-lg"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
               >
-                <span className="text-green-500 mr-2 text-xl">✦</span>
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
                 <div>
-                  <strong className="block mb-1">Data Engineering & ETL</strong>
-                  <p>Apache Airflow, Apache Spark, DBT, Azure Data Factory, ETL Pipelines, Apache Kafka, Snowflake</p>
+                  <strong className="block mb-1">Backend Development</strong>
+                  <p>Node.js, Express.js, Flask, Django, Websockets, Firebase Auth, Superbase</p>
                 </div>
               </motion.li>
 
@@ -166,12 +142,11 @@ export default function About() {
                 className="flex items-start p-4 bg-gray-800/50 rounded-lg"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
               >
-                <span className="text-green-500 mr-2 text-xl">✦</span>
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
                 <div>
-                  <strong className="block mb-1">Cloud & DevOps</strong>
+                  <strong className="block mb-1">Databases & Storage</strong>
                   <p>
-                    Microsoft Azure, Amazon Web Services (AWS), Google Cloud Platform (GCP), Terraform, Docker,
-                    Kubernetes, Git / GitHub / GitLab, CI/CD, Jenkins, Linux
+                    PostgreSQL, MongoDB, DynamoDB, AWS S3
                   </p>
                 </div>
               </motion.li>
@@ -181,10 +156,24 @@ export default function About() {
                 className="flex items-start p-4 bg-gray-800/50 rounded-lg"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
               >
-                <span className="text-green-500 mr-2 text-xl">✦</span>
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
+                <div>
+                  <strong className="block mb-1">Cloud & DevOps</strong>
+                  <p>
+                    Amazon Web Services (AWS), Google Cloud Platform (GCP), Railway, Hostinger, Vercel, Github
+                  </p>
+                </div>
+              </motion.li>
+
+              <motion.li
+                variants={itemVariants}
+                className="flex items-start p-4 bg-gray-800/50 rounded-lg"
+                whileHover={{ scale: 1.02, backgroundColor: "rgba(31, 41, 55, 0.8)" }}
+              >
+                <span className="text-[#991dbe] mr-2 text-xl">✦</span>
                 <div>
                   <strong className="block mb-1">Languages</strong>
-                  <p>Python, SQL, Bash/Shell, DAX (for Power BI)</p>
+                  <p>Typescript, Javascript, Python, SQL</p>
                 </div>
               </motion.li>
             </motion.ul>

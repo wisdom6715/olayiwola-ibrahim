@@ -7,23 +7,7 @@ import Navbar from "@/components/navbar"
 import Link from "next/link"
 import portfolioProjects from "./projects"
 
-// Define AWS subcategories
-const AWS_SUBCATEGORIES = [
-  "ALL",
-  "IAM",
-  "EC2",
-  "S3",
-  "Lambda",
-  "RDS",
-  "CloudFormation",
-  "CloudWatch",
-  "VPC",
-  "Route53"
-]
-
 export default function Portfolio() {
-  const [filter, setFilter] = useState("ALL")
-  const [awsSubFilter, setAwsSubFilter] = useState("ALL") // New state for AWS subfilter
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
   const [previewImage, setPreviewImage] = useState<string | null>(null)
   const { projects } = portfolioProjects()
@@ -51,15 +35,6 @@ export default function Portfolio() {
     },
   }
 
-  const filteredProjects = filter === "ALL" 
-    ? projects 
-    : filter === "AWS"
-      ? projects.filter(project => 
-          project.category === "AWS" && 
-          (awsSubFilter === "ALL" || project.subcategory === awsSubFilter)
-        )
-      : projects.filter(project => project.category === filter)
-
   const handleImagePreview = (imageSrc: string, e: React.MouseEvent) => {
     e.stopPropagation()
     setPreviewImage(imageSrc)
@@ -67,7 +42,7 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
-      <div className="bg-[#004a99]">
+      <div className="bg-[#991dbe]">
         <Navbar activePage="portfolio" />
       </div>
       
@@ -82,83 +57,18 @@ export default function Portfolio() {
         </motion.div>
               
         <motion.div
-            className="w-32 h-1 bg-green-500 mb-8"
+            className="w-32 h-1 bg-[#991dbe] mb-8"
             initial={{ width: 0 }}
             animate={{ width: "8rem" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
         />
               
         <motion.h1 className="text-4xl md:text-5xl font-bold mb-12" variants={itemVariants}>
-            My Works
+            My Projects
         </motion.h1>
 
-        <motion.div className="flex flex-wrap justify-center gap-4 mb-12" variants={itemVariants}>
-          {["ALL", "EXCEL", "POWERBI", "SQL", "PYTHON", "AWS", "AZURE", "DEVOPS"].map((category) => (
-            <motion.button
-              key={category}
-              className={`px-6 py-2 rounded-md ${
-                filter === category ? "bg-green-500 text-white" : "bg-gray-800 text-gray-300 hover:bg-gray-700"
-              } transition-colors`}
-              onClick={() => {
-                setFilter(category)
-                if (category !== "AWS") setAwsSubFilter("ALL")
-              }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {category}
-            </motion.button>
-          ))}
-        </motion.div>
-
-        {/* AWS Subcategory Filter - only shown when AWS is selected */}
-        {filter === "AWS" && (
-          <motion.div 
-            className="flex justify-center mb-8"
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3 }}
-          >
-            <div className="relative group">
-              <button className="px-6 py-2 bg-gray-700 rounded-md flex items-center gap-2">
-                AWS Projects: {awsSubFilter}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M6 9l6 6 6-6" />
-                </svg>
-              </button>
-              <div className="absolute z-10 mt-1 w-48 bg-gray-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                <div className="py-1 max-h-60 overflow-auto">
-                  {AWS_SUBCATEGORIES.map((subcategory) => (
-                    <button
-                      key={subcategory}
-                      className={`block w-full text-left px-4 py-2 text-sm ${
-                        awsSubFilter === subcategory 
-                          ? "bg-green-500 text-white" 
-                          : "text-gray-300 hover:bg-gray-700"
-                      }`}
-                      onClick={() => setAwsSubFilter(subcategory)}
-                    >
-                      {subcategory}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </motion.div>
-        )}
-
         <motion.div className="grid md:grid-cols-2 gap-8" variants={containerVariants}>
-            {filteredProjects.map((project) => (
+            {projects.map((project) => (
                 <motion.div
                             key={project.id}
                             variants={itemVariants}

@@ -32,9 +32,7 @@ export default function Navbar({ activePage }: NavbarProps) {
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Resume", path: "/resume" },
-    { name: "Certificates", path: "/certificates" },
     { name: "Portfolio", path: "/portfolio" },
-    { name: "Blog", path: "/blog" },
     { name: "Contact", path: "/contact" },
   ]
 
@@ -74,7 +72,7 @@ export default function Navbar({ activePage }: NavbarProps) {
 
   return (
     <motion.header
-      className={`sticky top-0 z-50 bg-[#004a99] ${isScrolled ? "shadow-lg" : ""}`}
+      className={`sticky top-0 z-50 bg-[#991dbe] ${isScrolled ? "shadow-lg" : ""}`}
       initial="hidden"
       animate="visible"
       variants={navbarVariants}
@@ -82,7 +80,7 @@ export default function Navbar({ activePage }: NavbarProps) {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="text-white text-2xl font-bold">
-            Oladosu Ibrahim
+            Olayiwola Ibrahim
           </Link>
 
           {/* Desktop Navigation */}
@@ -98,7 +96,7 @@ export default function Navbar({ activePage }: NavbarProps) {
                 {link.name}
                 {activePage === link.name.toLowerCase() && (
                   <motion.div
-                    className="absolute bottom-[-10px] left-0 right-0 h-1 bg-green-500"
+                    className="absolute bottom-[-10px] left-0 right-0 h-1 bg-white"
                     layoutId="activeNavIndicator"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -118,7 +116,7 @@ export default function Navbar({ activePage }: NavbarProps) {
 
       {/* Mobile Navigation */}
       <motion.div
-        className="fixed inset-y-0 right-0 w-64 bg-[#004a99] shadow-lg md:hidden z-50"
+        className="fixed inset-y-0 right-0 w-64 bg-[#991dbe] shadow-lg md:hidden z-50"
         variants={mobileMenuVariants}
         initial="closed"
         animate={isMobileMenuOpen ? "open" : "closed"}
@@ -133,7 +131,7 @@ export default function Navbar({ activePage }: NavbarProps) {
               key={link.name}
               href={link.path}
               className={`text-white hover:text-gray-200 transition-colors ${
-                activePage === link.name.toLowerCase() ? "font-medium border-l-4 border-green-500 pl-2" : ""
+                activePage === link.name.toLowerCase() ? "font-medium border-l-4 border-white pl-2" : ""
               }`}
               onClick={() => setIsMobileMenuOpen(false)}
             >
