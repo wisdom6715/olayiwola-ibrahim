@@ -33,9 +33,9 @@ export default function Home() {
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-        style={{
-          backgroundImage: `url('/images/prof-pics1.jpg')`
-        }}
+        // style={{
+        //   backgroundImage: `url('/images/prof-pics1.jpg')`
+        // }}
       />
       
       {/* Dark overlay to maintain readability */}
