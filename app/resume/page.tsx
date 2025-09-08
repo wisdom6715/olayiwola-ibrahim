@@ -71,7 +71,7 @@ export default function Resume() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
-                  (+234) 9024531295
+                  (+234) 9030650888
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
@@ -88,7 +88,7 @@ export default function Resume() {
               <div className="absolute left-0 top-2 w-4 h-4 bg-[#c628f7] rounded-full"></div>
               <div className="absolute left-2 top-6 bottom-0 w-[1px] bg-green-500/30"></div>
 
-              <h3 className="text-xl font-bold text-[#cd2bff]">Bachelor of Science (Statistics)</h3>
+              <h3 className="text-xl font-bold text-[#cd2bff]">Bachelor of Science (Data Science)</h3>
               <p className="mt-2">University of Lagos</p>
             </motion.div>
           </motion.div>
