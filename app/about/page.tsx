@@ -32,7 +32,7 @@ export default function About() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
       <div className="bg-[#991dbe]">
-        <Navbar activePage="about" />
+        <Navbar />
       </div>
 
       <motion.main
@@ -63,7 +63,7 @@ export default function About() {
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
             className="relative overflow-hidden rounded-lg shadow-xl"
           >
-            <Image src="/images/profile.jpg" alt="Oladosu Ibrahim" width={500} height={600} className="w-full h-auto" />
+            <Image src="/images/prof-pic.jpg" alt="Oladosu Ibrahim" width={500} height={600} className="w-full h-auto" />
             <motion.div
               className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"
               initial={{ opacity: 0 }}
@@ -82,15 +82,7 @@ export default function About() {
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-lg text-gray-300">
-            Founded IntuitionLabs and launched a product that attracted 500+ users in its first week, demonstrating rapid execution and user-driven development during its initial release phase.{" "}
-              {/* <Link
-                href="https://sudais.hashnode.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#ca33f8] hover:underline"
-              >
-                
-              </Link> */}
+            Independently built and shipped two production-grade applications PilotOps and Quotient Africa, owning the entire lifecycle from system architecture and product design to frontend engineering and deployment. Architected scalable systems, designed and implemented all interfaces, deployed AWS EC2 infrastructure, and managed cloud hosting and CI/CD workflows via AWS Amplify to deliver reliable, production-ready releases.
             </motion.p>
 
             <motion.h3 className="text-xl font-semibold mt-6" variants={itemVariants}>

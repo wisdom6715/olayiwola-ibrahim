@@ -5,12 +5,12 @@ import Image from "next/image"
 import { useState } from "react"
 import Navbar from "@/components/navbar"
 import Link from "next/link"
-import portfolioProjects from "./projects"
+import WorkExperience from './data/index'
 
 export default function Portfolio() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null)
   const [previewImage, setPreviewImage] = useState<string | null>(null)
-  const { projects } = portfolioProjects()
+  const { experience } = WorkExperience()
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -43,7 +43,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
       <div className="bg-[#991dbe]">
-        <Navbar />
+        <Navbar activePage="portfolio" />
       </div>
       
       <motion.main
@@ -53,7 +53,7 @@ export default function Portfolio() {
         variants={containerVariants}
       >
         <motion.div variants={itemVariants} className="uppercase text-gray-400 mb-2">
-            PORTFOLIO
+            WORK EXPERIENCE
         </motion.div>
               
         <motion.div
@@ -64,11 +64,11 @@ export default function Portfolio() {
         />
               
         <motion.h1 className="text-4xl md:text-5xl font-bold mb-12" variants={itemVariants}>
-            My Projects
+            PRODUCTS CONTRIBUTED TO:
         </motion.h1>
 
         <motion.div className="grid md:grid-cols-2 gap-8" variants={containerVariants}>
-            {projects.map((project) => (
+            {experience.map((project) => (
                 <motion.div
                             key={project.id}
                             variants={itemVariants}
@@ -113,10 +113,6 @@ export default function Portfolio() {
                                   </svg>
                                 </div>
                               </motion.button>
-              
-                              <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">
-                                {project.category}
-                              </div>
                             </motion.div>
                             <motion.div className="p-6" layoutId={`project-content-${project.id}`}>
                               <motion.h3 className="text-xl font-bold mb-2" layoutId={`project-title-${project.id}`}>
@@ -212,7 +208,7 @@ export default function Portfolio() {
                   onClick={(e) => e.stopPropagation()}
                 >
                   {(() => {
-                    const project = projects.find((p) => p.id === selectedProject)
+                    const project = experience.find((p) => p.id === selectedProject)
                     if (!project) return null
       
                     return (
@@ -236,11 +232,6 @@ export default function Portfolio() {
                           <motion.h3 className="text-2xl font-bold mb-2" layoutId={`project-title-${project.id}`}>
                             {project.title}
                           </motion.h3>
-                          <div className="mb-4">
-                            <span className="inline-block bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">
-                              {project.category}
-                            </span>
-                          </div>
                           <motion.p className="text-gray-300 mb-6" layoutId={`project-description-${project.id}`}>
                             {project.description}
                           </motion.p>

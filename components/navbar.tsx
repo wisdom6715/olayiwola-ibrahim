@@ -4,34 +4,28 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
+import { usePathname } from "next/navigation"
 
-interface NavbarProps {
-  activePage: string
-}
-
-export default function Navbar({ activePage }: NavbarProps) {
+export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const pathname = usePathname()
+
+  const activePage = pathname === "/" ? "home" : pathname.split("/")[1].toLowerCase()
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsScrolled(true)
-      } else {
-        setIsScrolled(false)
-      }
+      setIsScrolled(window.scrollY > 10)
     }
-
     window.addEventListener("scroll", handleScroll)
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
+    return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Resume", path: "/resume" },
+    { name: "Experience", path: "/experience" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Contact", path: "/contact" },
   ]
@@ -41,11 +35,7 @@ export default function Navbar({ activePage }: NavbarProps) {
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        type: "spring",
-        stiffness: 100,
-        damping: 15,
-      },
+      transition: { type: "spring", stiffness: 100, damping: 15 },
     },
   }
 
@@ -53,20 +43,12 @@ export default function Navbar({ activePage }: NavbarProps) {
     closed: {
       opacity: 0,
       x: "100%",
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 30,
-      },
+      transition: { type: "spring", stiffness: 300, damping: 30 },
     },
     open: {
       opacity: 1,
       x: 0,
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 30,
-      },
+      transition: { type: "spring", stiffness: 300, damping: 30 },
     },
   }
 
@@ -125,7 +107,6 @@ export default function Navbar({ activePage }: NavbarProps) {
           <button className="self-end text-white" onClick={() => setIsMobileMenuOpen(false)}>
             <X size={24} />
           </button>
-
           {navLinks.map((link) => (
             <Link
               key={link.name}

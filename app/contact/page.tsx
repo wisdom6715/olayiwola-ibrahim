@@ -43,7 +43,7 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
       <div className="bg-[#991dbe]">
-        <Navbar activePage="contact" />
+        <Navbar />
       </div>
 
       <motion.main

@@ -30,7 +30,7 @@ export default function Resume() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white">
       <div className="bg-[#991dbe]">
-        <Navbar activePage="resume" />
+        <Navbar />
       </div>
 
       <motion.main
