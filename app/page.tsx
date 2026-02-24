@@ -76,6 +76,10 @@ export default function Home() {
                 Resume
                 <motion.div className="absolute bottom-0 left-0 right-0 h-1 bg-[#991dbe] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
               </Link>
+              <Link href="/experience" className="text-white hover:text-gray-300 relative group pb-2">
+                Experience
+                <motion.div className="absolute bottom-0 left-0 right-0 h-1 bg-[#991dbe] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+              </Link>
               <Link href="/portfolio" className="text-white hover:text-gray-300 relative group pb-2">
                 Portfolio
                 <motion.div className="absolute bottom-0 left-0 right-0 h-1 bg-[#991dbe] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
