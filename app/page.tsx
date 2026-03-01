@@ -31,12 +31,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#1a1a1a] text-white flex flex-col relative">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed"
-        // style={{
-        //   backgroundImage: `url('/images/prof-pics1.jpg')`
-        // }}
-      />
+      <div  className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed" />
       
       {/* Dark overlay to maintain readability */}
       <div className="absolute inset-0 bg-black/60" />
@@ -60,7 +55,7 @@ export default function Home() {
             </motion.h1>
 
             <motion.p className="text-xl md:text-2xl max-w-3xl mb-12" variants={itemVariants} style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.8)' }}>
-              I develop robust, scalable web and mobile applications, building efficient frontends, powerful backends, and seamless user experiences. I focus on performance, maintainability, and delivering real-world value through clean, modern code.
+              I develop robust, scalable Web and Mobile Applications, building efficient frontends, powerful backends, and seamless user experiences. I focus on performance, maintainability, and delivering real-world value through clean, modern code.
             </motion.p>
 
             <motion.nav className="flex flex-wrap gap-y-4 gap-x-8 mb-12" variants={itemVariants}>
