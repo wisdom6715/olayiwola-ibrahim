@@ -4,6 +4,26 @@ export default function portfolioProjects(){
     const projects = [
       {
         id: 1,
+        title: "Quotient Africa",
+        description: "A full-scale digital news platform and content management system (CMS) built for Quotient Africa, enabling seamless publishing, content distribution, and audience engagement across web and mobile.",
+        image: "/images/quotient.jpg",
+        category: "CMS (SaaS)",
+        details: "I designed and developed the complete digital infrastructure for Quotient Africa, a modern news media company. The platform includes a scalable content management system (CMS) that allows editors and journalists to create, manage, and publish articles in real time. It supports rich media content, category-based publishing, and optimized content delivery for high-traffic scenarios.\n\nThe system is built with performance and scalability in mind, featuring server-side rendering for SEO, fast load times, and a responsive user interface for mobile-first audiences. On the backend, it handles content storage, user roles, and publishing workflows, while integrating cloud services for reliability and global accessibility.\n\nThis solution empowers Quotient Africa to operate as a fully digital-first media company, streamlining editorial workflows and enhancing content reach across Africa and beyond.",
+        link: "https://quotientsafrica.com",
+        stack: [
+          "Next.js",
+          "TypeScript",
+          "TailwindCSS",
+          "Node.js",
+          "DynamoDB",
+          "AWS EC2",
+          "AWS S3",
+          "AWS Amplify"
+        ]
+      },
+
+      {
+        id: 2,
         title: "PilotOps",
         description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
         image: "/images/pilotops.png",
@@ -13,18 +33,6 @@ export default function portfolioProjects(){
         stack: [
           'Next.js', 'Typescript', 'TailwindCSS', 'Node.js', 'Pinecone', 'Langchain', 'Dynamodb', 'AWS Lambda', 'AWS SQS', 'AWS EC2', 'AWS S3', 'AWS Bedrock', 'Cloudfront'
         ]
-      },
-      {
-        id: 2,
-        title: "Quotient Africa",
-        description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
-        image: "/images/quotient.jpg",
-        category: "CMS (SAAS)",
-        details: "This mobile app provides real-time fuel price information across various stations in Lagos, displayed on an interactive map. Designed to help drivers, commuters, and logistics operators plan smarter routes, the app allows users to compare fuel prices (petrol, diesel, gas) in different areas before deciding where to refuel. It features live updates, user-submitted price reports, and integrated route planning to help users avoid overpriced stations and reduce fuel costs. By combining accurate location data with transparent pricing, the app enhances commuting efficiency and promotes better decision-making for fuel-related expenses in Lagos.",
-        link: "https://quotientsafrica.com",
-        stack: [
-            'Next.js', 'Typescript', 'TailwindCSS', 'Node.js', 'Dynamodb', 'AWS EC2', 'AWS S3', 'AWS Amplify'
-          ]
       },
       
     {
