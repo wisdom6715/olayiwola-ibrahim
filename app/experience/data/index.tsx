@@ -1,8 +1,3 @@
-// Alusoft
-// Jobifiy
-// Quotient Africa
-// 
-
 "use client"
     
 export default function WorkExperience(){
@@ -19,7 +14,7 @@ export default function WorkExperience(){
           id: 2,
           title: "Jobifiy",
           description: "AI-enabled hiring platform with dashboards and workflow automation improving talent-employer matching and interview coordination.",
-          image: "/images/logo_2.webp",
+          image: "/images/jobifiy.png",
           details: "Worked as a Frontend Developer contributing to the core product experience at Jobifiy. Built AI-powered dashboards supporting talent applications, employer hiring workflows, and internal operations. Implemented resume generation, smart job recommendations, advanced filtering, and employer-side talent ranking to reduce time spent on unqualified applicants. Developed admin analytics dashboards to monitor platform activity and inform growth decisions. Integrated an interview invitation system with Google Calendar and Google Meet, streamlining interview scheduling and coordination across stakeholders.",
           link: "https://jobifiy.com",
       },
