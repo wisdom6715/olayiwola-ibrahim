@@ -44,19 +44,6 @@ export default function portfolioProjects() {
 
     {
       id: 3,
-      title: "PilotOps",
-      description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
-      image: "/images/pilotops.png",
-      category: "AI SAAS",
-      details: "This mobile app provides real-time fuel price information across various stations in Lagos, displayed on an interactive map. Designed to help drivers, commuters, and logistics operators plan smarter routes, the app allows users to compare fuel prices (petrol, diesel, gas) in different areas before deciding where to refuel. It features live updates, user-submitted price reports, and integrated route planning to help users avoid overpriced stations and reduce fuel costs. By combining accurate location data with transparent pricing, the app enhances commuting efficiency and promotes better decision-making for fuel-related expenses in Lagos.",
-      link: "https://pilotops.xyz",
-      stack: [
-        'Next.js', 'Typescript', 'TailwindCSS', 'Node.js', 'Pinecone', 'Langchain', 'Dynamodb', 'AWS Lambda', 'AWS SQS', 'AWS EC2', 'AWS S3', 'AWS Bedrock', 'Cloudfront'
-      ]
-    },
-
-    {
-      id: 4,
       title: "KgLuxee",
       description: "KgLuxee Editorial is a fashion e-commerce storefront offering curated clothing, footwear, and accessories for women, men, and children, organized by category and occasion with a clean, editorial-style shopping experience.",
       image: "/images/kgluxee.png",
@@ -68,6 +55,19 @@ export default function portfolioProjects() {
         "TypeScript",
         "TailwindCSS",
         "Firebase"
+      ]
+    },
+
+    {
+      id: 4,
+      title: "PilotOps",
+      description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
+      image: "/images/pilotops.png",
+      category: "AI SAAS",
+      details: "This mobile app provides real-time fuel price information across various stations in Lagos, displayed on an interactive map. Designed to help drivers, commuters, and logistics operators plan smarter routes, the app allows users to compare fuel prices (petrol, diesel, gas) in different areas before deciding where to refuel. It features live updates, user-submitted price reports, and integrated route planning to help users avoid overpriced stations and reduce fuel costs. By combining accurate location data with transparent pricing, the app enhances commuting efficiency and promotes better decision-making for fuel-related expenses in Lagos.",
+      link: "https://pilotops.xyz",
+      stack: [
+        'Next.js', 'Typescript', 'TailwindCSS', 'Node.js', 'Pinecone', 'Langchain', 'Dynamodb', 'AWS Lambda', 'AWS SQS', 'AWS EC2', 'AWS S3', 'AWS Bedrock', 'Cloudfront'
       ]
     },
 
