@@ -21,7 +21,28 @@ export default function portfolioProjects() {
         "AWS Amplify"
       ]
     },
-
+    {
+    id: 2,
+    title: "Wheelers",
+    description: "A decentralized Web3 ride-hailing platform that enables riders to book affordable rides, drivers to earn directly, and users to participate in a community-owned transportation network through shared rides, digital wallets, and $WHL rewards — with the added convenience of requesting rides directly through WhatsApp.",
+    image: "/images/wheelers.png",
+    category: "Mobility / Web3",
+    details: "I designed and developed Wheelers, a community-owned ride-hailing platform built to create a more affordable, transparent, and rewarding alternative to traditional ride-hailing services. The platform connects riders with verified drivers while combining real-time ride matching, fixed fare pricing, GPS tracking, digital wallets, blockchain-powered rewards, and WhatsApp ride booking into a single transportation ecosystem.\n\nFor riders, Wheelers provides instant driver matching, live GPS tracking, transparent fare previews, wallet or card payments, and group ride functionality that allows multiple passengers heading in the same direction to share a trip and automatically split the cost. The platform also supports scheduled rides and real-time seat matching to make shared transportation more convenient and affordable.\n\nTo make the service accessible beyond the web platform, Wheelers also allows users to message the service directly on WhatsApp and request a ride through chat. Riders can contact Wheelers at +234 814 197 9106 to initiate their ride request, providing a familiar and accessible booking channel for users who prefer WhatsApp over a traditional ride-hailing interface.\n\nFor drivers, the platform is designed around lower commissions and direct earnings, with wallet-based payouts, referral income, and $WHL token rewards. Identity verification and KYC processes are incorporated to improve trust and safety across the network, while the Web3 layer enables users to interact with their earnings and participate in the community-owned ecosystem.\n\nThe platform is designed with a scalable architecture capable of supporting real-time location services, driver discovery, ride matching, payment processing, wallet infrastructure, WhatsApp-based ride requests, and blockchain-based incentives while delivering a responsive experience across modern devices.",
+    link: "https://www.wheelersng.com/",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Node.js",
+      "PostgreSQL",
+      "WebSockets",
+      "Google Maps API",
+      "Blockchain / Web3",
+      "USDT",
+      "Digital Wallets",
+      "WhatsApp Integration"
+    ]
+    },
     {
       id: 2,
       title: "Quotient Africa",
