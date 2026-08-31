@@ -44,6 +44,34 @@ export default function portfolioProjects() {
     ]
     },
     {
+      id: 5,
+      title: "Fillng",
+      description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
+      image: "/images/fillng.png",
+      category: "MOBILE APP",
+      details: "This mobile app provides real-time fuel price information across various stations in Lagos, displayed on an interactive map. Designed to help drivers, commuters, and logistics operators plan smarter routes, the app allows users to compare fuel prices (petrol, diesel, gas) in different areas before deciding where to refuel. It features live updates, user-submitted price reports, and integrated route planning to help users avoid overpriced stations and reduce fuel costs. By combining accurate location data with transparent pricing, the app enhances commuting efficiency and promotes better decision-making for fuel-related expenses in Lagos.",
+      link: "https://fillng.ng",
+      stack: [
+        'React Native', 'Expo', 'TailwindCSS', 'Firebase'
+      ]
+    },
+    {
+      id: 3,
+      title: "KgLuxee",
+      description: "KgLuxee Editorial is a fashion e-commerce storefront offering curated clothing, footwear, and accessories for women, men, and children, organized by category and occasion with a clean, editorial-style shopping experience.",
+      image: "/images/kgluxee.png",
+      category: "Fashion E-commerce",
+      details: "I designed and built the KgLuxee storefront, a fashion e-commerce platform positioned around the idea of luxury and editorial style rather than mass-market retail. The site organizes its catalog across Women, Men, Children, Fabrics, Accessories, and Occasion categories, with dedicated product browsing for shoes, bags, jewelry, and apparel.\n\nThe frontend features a visually driven homepage with rotating seasonal campaigns, category showcases, and a popular products section, all built for a smooth, mobile-friendly shopping experience. Customers can browse the full catalog or drill into specific collections, with direct links out to social channels (Instagram, TikTok, Pinterest, Facebook) and WhatsApp for customer inquiries.\n\nThe platform is built with a modern JS stack and Firebase for backend services, giving the KgLuxee brand a fast, scalable storefront without the overhead of a full custom backend.",
+      link: "https://www.kgluxee.com",
+      stack: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Firebase"
+      ]
+    },
+
+    {
       id: 2,
       title: "Quotient Africa",
       description: "A full-scale digital news platform and content management system (CMS) built for Quotient Africa, enabling seamless publishing, content distribution, and audience engagement across web and mobile.",
@@ -64,22 +92,6 @@ export default function portfolioProjects() {
     },
 
     {
-      id: 3,
-      title: "KgLuxee",
-      description: "KgLuxee Editorial is a fashion e-commerce storefront offering curated clothing, footwear, and accessories for women, men, and children, organized by category and occasion with a clean, editorial-style shopping experience.",
-      image: "/images/kgluxee.png",
-      category: "Fashion E-commerce",
-      details: "I designed and built the KgLuxee storefront, a fashion e-commerce platform positioned around the idea of luxury and editorial style rather than mass-market retail. The site organizes its catalog across Women, Men, Children, Fabrics, Accessories, and Occasion categories, with dedicated product browsing for shoes, bags, jewelry, and apparel.\n\nThe frontend features a visually driven homepage with rotating seasonal campaigns, category showcases, and a popular products section, all built for a smooth, mobile-friendly shopping experience. Customers can browse the full catalog or drill into specific collections, with direct links out to social channels (Instagram, TikTok, Pinterest, Facebook) and WhatsApp for customer inquiries.\n\nThe platform is built with a modern JS stack and Firebase for backend services, giving the KgLuxee brand a fast, scalable storefront without the overhead of a full custom backend.",
-      link: "https://www.kgluxee.com",
-      stack: [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Firebase"
-      ]
-    },
-
-    {
       id: 4,
       title: "PilotOps",
       description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
@@ -89,19 +101,6 @@ export default function portfolioProjects() {
       link: "https://pilotops.xyz",
       stack: [
         'Next.js', 'Typescript', 'TailwindCSS', 'Node.js', 'Pinecone', 'Langchain', 'Dynamodb', 'AWS Lambda', 'AWS SQS', 'AWS EC2', 'AWS S3', 'AWS Bedrock', 'Cloudfront'
-      ]
-    },
-
-    {
-      id: 5,
-      title: "Fillng",
-      description: "This mobile app provides real-time fuel price information across fuel stations in Lagos. Users can view current petrol, diesel, and gas prices at nearby stations, displayed on an interactive map. The app helps commuters and drivers make smarter route and refueling decisions, ultimately saving time and money.",
-      image: "/images/fillng.png",
-      category: "MOBILE APP",
-      details: "This mobile app provides real-time fuel price information across various stations in Lagos, displayed on an interactive map. Designed to help drivers, commuters, and logistics operators plan smarter routes, the app allows users to compare fuel prices (petrol, diesel, gas) in different areas before deciding where to refuel. It features live updates, user-submitted price reports, and integrated route planning to help users avoid overpriced stations and reduce fuel costs. By combining accurate location data with transparent pricing, the app enhances commuting efficiency and promotes better decision-making for fuel-related expenses in Lagos.",
-      link: "https://fillng.ng",
-      stack: [
-        'React Native', 'Expo', 'TailwindCSS', 'Firebase'
       ]
     },
 
